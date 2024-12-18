@@ -1,8 +1,7 @@
 export interface Campaign {
   id: number;
   name: string;
-  assistantId: string;
-  assistantName: string;
+  assistant: string;
   maxCalls: number;
   days: string[];
   time: { 
@@ -10,7 +9,6 @@ export interface Campaign {
     end: string; 
   };
   type: string;
-  numberId: string;
   number: string;
   status: 'active' | 'stopped';
   file: string;

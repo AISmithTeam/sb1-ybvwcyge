@@ -20,8 +20,8 @@ export const useCampaigns = () => {
 
   const addCampaign = (campaign: Campaign) => {
     const form = new FormData();
-    form.append("assistant_id", campaign.assistantId);
-    form.append("phone_number_id", campaign.numberId);
+    form.append("assistant_id", campaign.assistant);
+    form.append("phone_number_id", campaign.number);
     form.append("campaign_type", campaign.type);
     form.append("start_time", campaign.time.start);
     form.append("end_time", campaign.time.end);
