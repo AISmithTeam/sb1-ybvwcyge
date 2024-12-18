@@ -9,14 +9,16 @@ interface LLMConfigProps {
   config: {
     provider: string;
     model: string;
+    prompt: string;
   };
-  onChange: (updates: { provider?: string; model?: string }) => void;
+  onChange: (updates: { provider?: string; model?: string; prompt?: string }) => void;
   showValidationErrors?: boolean;
 }
 
 const LLMConfig = ({ config, onChange, showValidationErrors }: LLMConfigProps) => {
   const [features, setFeatures] = useState<LLMFeaturesConfig>(defaultLLMConfig);
-
+  features.systemPrompt = config.prompt;
+  console.log(features);
   const handleProviderChange = (providerId: string) => {
     const provider = llmProviders.find(p => p.id === providerId);
     onChange({
@@ -31,6 +33,8 @@ const LLMConfig = ({ config, onChange, showValidationErrors }: LLMConfigProps) =
 
   const handleFeaturesChange = (updates: Partial<LLMFeaturesConfig>) => {
     setFeatures(prev => ({ ...prev, ...updates }));
+    onChange({ prompt: updates.systemPrompt });
+    //config.prompt = updates.systemPrompt ? updates.systemPrompt : config.prompt;
   };
 
   return (

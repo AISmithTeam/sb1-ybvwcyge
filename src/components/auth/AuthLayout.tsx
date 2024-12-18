@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../common/Logo';
+import authImage from '../../assets/images/auth-image.jpg'
 
 interface AuthLayoutProps {
   children: React.ReactNode;
@@ -29,7 +30,7 @@ const AuthLayout = ({ children, title, subtitle }: AuthLayoutProps) => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary-400/60 to-primary-600/60 mix-blend-multiply" />
         <img
           className="absolute inset-0 h-full w-full object-cover"
-          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80"
+          src={authImage} //"https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80"
           alt="AI Call Center"
         />
         <div className="absolute inset-0 flex items-center justify-center text-white p-12">

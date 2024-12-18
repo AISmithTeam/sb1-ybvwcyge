@@ -18,11 +18,10 @@ export const useAssistants = () => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(assistants));
   }, [assistants]);
 
-  const createAssistant = (name: string, prompt: string, config: ConfigValidation) => {
+  const createAssistant = (name: string, config: ConfigValidation) => {
     const newAssistant: Assistant = {
       id: crypto.randomUUID(),
       name,
-      prompt,
       config,
       createdAt: new Date().toISOString(),
       status: 'active'
@@ -30,24 +29,25 @@ export const useAssistants = () => {
 
     axios.post(`${baseUrl}/assistants?jwt_token=${accessToken}`, 
       {
-        prompt: newAssistant.prompt, // fixme должен быть промпт на фронтенде нет поля для этого
+        prompt: newAssistant.config.llm.prompt, // fixme должен быть промпт на фронтенде нет поля для этого
         voice: newAssistant.config.tts.model,
         assistant_name: newAssistant.name,
       }
     ).then(
       (response) => {
-        newAssistant.id = response.data.assistant_id
+        newAssistant.id = response.data.assistant_id;
+        setAssistants(prev => [...prev, newAssistant]);
         console.log(newAssistant);
+        return newAssistant;
       }
     );
 
-    setAssistants(prev => [...prev, newAssistant]);
-    return newAssistant;
+    
   };
 
   const updateAssistant = (id: string, updates: Partial<Assistant>) => {
     axios.patch(`${baseUrl}/assistant?jwt_token=${accessToken}`, {
-      prompt: updates.prompt, // fixme должен быть промпт 
+      prompt: updates.config.llm.prompt, 
       voice: updates.config.tts.model,
       assistant_name: updates.name,
       assistant_id: id,

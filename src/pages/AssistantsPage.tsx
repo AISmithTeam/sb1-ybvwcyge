@@ -16,7 +16,7 @@ const AssistantsPage = () => {
   const [assistantPrompt, setAssistantPrompt] = useState('');
   const [validation, setValidation] = useState<ConfigValidation>({
     stt: { provider: '', model: '' },
-    llm: { provider: '', model: '' },
+    llm: { provider: '', model: '', prompt: '' },
     tts: { provider: '', model: '' }
   });
   const [showValidationErrors, setShowValidationErrors] = useState(false);
@@ -31,7 +31,7 @@ const AssistantsPage = () => {
     setAssistantName('');
     setValidation({
       stt: { provider: '', model: '' },
-      llm: { provider: '', model: '' },
+      llm: { provider: '', model: '', prompt: '' },
       tts: { provider: '', model: '' }
     });
   };
@@ -62,11 +62,10 @@ const AssistantsPage = () => {
     if (editingAssistant) {
       updateAssistant(editingAssistant.id, {
         name: assistantName.trim(),
-        prompt: assistantPrompt,
         config: validation,
       });
     } else {
-      createAssistant(assistantName.trim(), assistantPrompt.trim(), validation);
+      createAssistant(assistantName.trim(), validation);
     }
 
     // Reset form
@@ -76,7 +75,7 @@ const AssistantsPage = () => {
     setAssistantName('');
     setValidation({
       stt: { provider: '', model: '' },
-      llm: { provider: '', model: '' },
+      llm: { provider: '', model: '', prompt: '' },
       tts: { provider: '', model: '' }
     });
   };

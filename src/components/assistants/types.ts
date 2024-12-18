@@ -6,6 +6,7 @@ export interface ConfigValidation {
   llm: {
     provider: string;
     model: string;
+    prompt: string;
   };
   tts: {
     provider: string;
