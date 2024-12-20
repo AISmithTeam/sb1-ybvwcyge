@@ -23,8 +23,6 @@ const CampaignCard = ({ campaign }: CampaignCardProps) => {
   const assistantName = assistants.find(p => p.id?.toString() === campaign.assistant)?.name;
   const phoneNumber = phoneNumbers.find(p => p.id?.toString() === campaign.number)?.number;
 
-  console.log(assistants.find(p => {console.log(p.id, campaign.assistant); p.id === campaign.assistant}), phoneNumber);
-
   return (
     <Card variant="glass" className="hover:shadow-lg transition-shadow duration-200 flex flex-col">
       <div className="p-6 flex-1">

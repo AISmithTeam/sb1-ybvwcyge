@@ -37,7 +37,6 @@ export const useAssistants = () => {
       (response) => {
         newAssistant.id = response.data.assistant_id;
         setAssistants(prev => [...prev, newAssistant]);
-        console.log(newAssistant);
         return newAssistant;
       }
     );
@@ -46,6 +45,7 @@ export const useAssistants = () => {
   };
 
   const updateAssistant = (id: string, updates: Partial<Assistant>) => {
+    console.log(updates);
     axios.patch(`${baseUrl}/assistant?jwt_token=${accessToken}`, {
       prompt: updates.config.llm.prompt, 
       voice: updates.config.tts.model,

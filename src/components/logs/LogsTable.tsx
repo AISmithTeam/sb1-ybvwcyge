@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, Calendar, Clock, Bot, Hash, DollarSign, XCircle } from 'lucide-react';
 import WaveformVisualizer from './WaveformVisualizer';
+import { LogEntry } from './types';
 
 interface Log {
   id: number;
@@ -30,7 +31,7 @@ const mockLogs: Log[] = Array.from({ length: 10 }, (_, i) => ({
   recording: Array.from({ length: 50 }, () => Math.random())
 }));
 
-const LogsTable = () => {
+const LogsTable = (callLogs: LogEntry[]) => {
   const getStatusColor = (status: Log['status']) => {
     switch (status) {
       case 'completed':
@@ -59,7 +60,7 @@ const LogsTable = () => {
           </tr>
         </thead>
         <tbody>
-          {mockLogs.map((log) => (
+          {callLogs.map((log) => (
             <tr key={log.id} className="border-b border-slate-200 dark:border-dark-700">
               <td className="py-4 px-4">
                 <div className="flex items-center gap-2">
@@ -77,11 +78,11 @@ const LogsTable = () => {
                 <div className="space-y-1">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4 text-primary-500 dark:text-primary-400" />
-                    <span className="text-sm text-slate-800 dark:text-slate-200">{log.date}</span>
+                    <span className="text-sm text-slate-800 dark:text-slate-200">{log.callTime}</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4 text-primary-500 dark:text-primary-400" />
-                    <span className="text-sm text-slate-600 dark:text-slate-400">{log.time}</span>
+                    <span className="text-sm text-slate-600 dark:text-slate-400">{log.callTime}</span>
                   </div>
                 </div>
               </td>
@@ -96,7 +97,7 @@ const LogsTable = () => {
               </td>
               <td className="py-4 px-4">
                 <span className={`inline-flex items-center px-3 py-1 text-xs font-medium rounded-full border ${getStatusColor(log.status)}`}>
-                  {log.status.charAt(0).toUpperCase() + log.status.slice(1)}
+                  {log.endedReason.charAt(0).toUpperCase() + log.endedReason.slice(1)}
                 </span>
               </td>
               <td className="py-4 px-4">
