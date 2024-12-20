@@ -16,6 +16,10 @@ interface Log {
   endReason: string;
   recording: number[];
 }
+
+interface logsTableProps {
+  callLogs: LogEntry[]
+}
 // empty comment
 const mockLogs: Log[] = Array.from({ length: 10 }, (_, i) => ({
   id: i + 1,
@@ -31,7 +35,7 @@ const mockLogs: Log[] = Array.from({ length: 10 }, (_, i) => ({
   recording: Array.from({ length: 50 }, () => Math.random())
 }));
 
-const LogsTable = (callLogs: LogEntry[]) => {
+const LogsTable = ({callLogs} : logsTableProps) => {
   const getStatusColor = (status: Log['status']) => {
     switch (status) {
       case 'completed':
@@ -42,7 +46,6 @@ const LogsTable = (callLogs: LogEntry[]) => {
         return 'bg-blue-50 text-blue-700 border-blue-100 dark:bg-blue-500/10 dark:text-blue-300 dark:border-blue-500/20';
     }
   };
-
   return (
     <div className="overflow-x-auto">
       <table className="w-full">
@@ -80,10 +83,12 @@ const LogsTable = (callLogs: LogEntry[]) => {
                     <Calendar className="w-4 h-4 text-primary-500 dark:text-primary-400" />
                     <span className="text-sm text-slate-800 dark:text-slate-200">{log.callTime}</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Clock className="w-4 h-4 text-primary-500 dark:text-primary-400" />
-                    <span className="text-sm text-slate-600 dark:text-slate-400">{log.callTime}</span>
-                  </div>
+                  {
+                    //<div className="flex items-center gap-2">
+                    //<Clock className="w-4 h-4 text-primary-500 dark:text-primary-400" />
+                    //<span className="text-sm text-slate-600 dark:text-slate-400">{log.callTime}</span>
+                  //</div>
+                  }
                 </div>
               </td>
               <td className="py-4 px-4">
@@ -109,11 +114,11 @@ const LogsTable = (callLogs: LogEntry[]) => {
               <td className="py-4 px-4">
                 <div className="flex items-center gap-2">
                   <XCircle className="w-4 h-4 text-primary-500 dark:text-primary-400" />
-                  <span className="text-sm text-slate-800 dark:text-slate-200">{log.endReason}</span>
+                  <span className="text-sm text-slate-800 dark:text-slate-200">{log.endedReason}</span>
                 </div>
               </td>
               <td className="py-4 px-4">
-                <WaveformVisualizer data={log.recording} />
+                <WaveformVisualizer data={Array.from({ length: 50 }, () => Math.random())} />
               </td>
             </tr>
           ))}

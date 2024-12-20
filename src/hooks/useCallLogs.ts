@@ -14,18 +14,17 @@ export const useCallLogs = () => {
         const stored = localStorage.getItem(STORAGE_KEY);
         return stored ? JSON.parse(stored) : [];
       });
-    const [callsData, setCallData] = useState(Array());
     const {phoneNumbers, createPhoneNumber, updatePhoneNumber, deletePhoneNumber, togglePhoneNumberStatus} = usePhoneNumbers();
     const { assistants, createAssistant, updateAssistant, deleteAssistant } = useAssistants();
     const { campaigns, addCampaign } = useCampaigns();
 
-    for (let i=0; i <= phoneNumbers.length; i++) {
+    for (let i=0; i < phoneNumbers.length; i++) {
         const phoneNumber = phoneNumbers[i]?.number;
         const phoneNumberId = phoneNumbers[i]?.id;
         const accountSid = phoneNumbers[i]?.accountSid;
         const authToken = phoneNumbers[i]?.authToken;
 
-        const callAssistantId = campaigns.find(p => p.number === phoneNumberId)?.assistant;
+        const callAssistantId = campaigns.find(p => p.number === phoneNumberId?.toString())?.assistant;
         const callAssistantName = assistants.find(p => p.id.toString() === callAssistantId)?.name;
         if (callAssistantName) {
             axios
@@ -35,7 +34,7 @@ export const useCallLogs = () => {
                     if (!data.error) {
                         for (let i = 0; i <= data.length; i++) {
                             const callData = data[i];
-                            if (callData) {
+                            if (callData && !callLogs.find(p => p.id === callData.sid)) {
                                 const newLog: LogEntry = {
                                     id: callData.sid,
                                     type: 'Phone Inbound',
@@ -46,8 +45,9 @@ export const useCallLogs = () => {
                                     phoneNumber: phoneNumber,
                                     customer: callData._from,
                                     callTime: callData.start_time,
-                                    duration: callData.duration,
+                                    duration: callData.duration.toString(),
                                 }
+                                console.log(newLog);
                                 setCallLogs([...callLogs, newLog]);
                             }
                         }
@@ -55,7 +55,6 @@ export const useCallLogs = () => {
                 });
         }
     }
-
     useEffect(() => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(callLogs));
       }, [callLogs]);
