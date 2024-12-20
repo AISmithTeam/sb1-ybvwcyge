@@ -7,7 +7,7 @@ import axios from 'axios';
 
 const STORAGE_KEY = 'call_logs'
 const PER_NUMBER_CALLS_LIMIT = 20;
-const URL = 'http://127.0.0.1:5000/api/twilio-records' // change to production
+const URL = 'http://ceec-212-193-4-221.ngrok-free.app/api/twilio-records' // change to production
 
 export const useCallLogs = () => {
     const [callLogs, setCallLogs] = useState<LogEntry[]>(() => {
