@@ -3,6 +3,8 @@ import Card from '../components/common/Card';
 import LogsTable from '../components/logs/LogsTable';
 import { useCallLogs } from '../hooks/useCallLogs';
 
+const STORAGE_KEY = 'call_logs';
+
 const LogsPage = () => {
   const callLogs = useCallLogs();
   return (

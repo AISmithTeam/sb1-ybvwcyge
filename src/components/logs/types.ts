@@ -9,6 +9,9 @@ export interface LogEntry {
   customer: string;
   callTime: string;
   duration: string;
+  recordingUrl: string;
+  accountSid: string;
+  authToken: string;
   waveformData?: number[];
 }
 // empty comment

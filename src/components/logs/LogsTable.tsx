@@ -2,6 +2,7 @@ import React from 'react';
 import { Phone, Calendar, Clock, Bot, Hash, DollarSign, XCircle } from 'lucide-react';
 import WaveformVisualizer from './WaveformVisualizer';
 import { LogEntry } from './types';
+import { useCallLogs } from '../../hooks/useCallLogs';
 
 interface Log {
   id: number;
@@ -35,7 +36,7 @@ const mockLogs: Log[] = Array.from({ length: 10 }, (_, i) => ({
   recording: Array.from({ length: 50 }, () => Math.random())
 }));
 
-const LogsTable = ({callLogs} : logsTableProps) => {
+const LogsTable = ( {callLogs} : logsTableProps ) => {
   const getStatusColor = (status: Log['status']) => {
     switch (status) {
       case 'completed':
@@ -101,7 +102,7 @@ const LogsTable = ({callLogs} : logsTableProps) => {
                 </div>
               </td>
               <td className="py-4 px-4">
-                <span className={`inline-flex items-center px-3 py-1 text-xs font-medium rounded-full border ${getStatusColor(log.status)}`}>
+                <span className={`inline-flex items-center px-3 py-1 text-xs font-medium rounded-full border ${getStatusColor('completed')}`}>
                   {log.endedReason.charAt(0).toUpperCase() + log.endedReason.slice(1)}
                 </span>
               </td>
@@ -118,7 +119,12 @@ const LogsTable = ({callLogs} : logsTableProps) => {
                 </div>
               </td>
               <td className="py-4 px-4">
-                <WaveformVisualizer data={Array.from({ length: 50 }, () => Math.random())} />
+                <WaveformVisualizer 
+                  data={Array.from({ length: 50 }, () => Math.random())}
+                  recordingDataUrl={log.recordingUrl}
+                  accountSid={log.accountSid}
+                  authToken={log.authToken} 
+                />
               </td>
             </tr>
           ))}

@@ -45,7 +45,6 @@ export const useAssistants = () => {
   };
 
   const updateAssistant = (id: string, updates: Partial<Assistant>) => {
-    console.log(updates);
     axios.patch(`${baseUrl}/assistant?jwt_token=${accessToken}`, {
       prompt: updates.config.llm.prompt, 
       voice: updates.config.tts.model,

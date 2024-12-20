@@ -1,8 +1,8 @@
 import React from 'react';
-import { LucideIcon, Pencil, Trash2 } from 'lucide-react';
+import { Play, Pause, Pencil, Trash2, Download } from 'lucide-react';
 
 interface ActionButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant: 'edit' | 'delete';
+  variant: 'edit' | 'delete' | 'play' | 'pause' | 'download';
   showText?: boolean;
 }
 
@@ -17,6 +17,21 @@ const ActionButton = ({ variant, showText = true, className = '', ...props }: Ac
       icon: Trash2,
       text: 'Delete',
       styles: 'text-slate-600 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-500/10 focus:ring-red-200 dark:focus:ring-red-500/20',
+    },
+    play: {
+      icon: Play,
+      text: 'Play',
+      styles: 'text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-500/10 focus:ring-blue-200 dark:focus:ring-blue-500/20',
+    },
+    pause: {
+      icon: Pause,
+      text: 'Pause',
+      styles: 'text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-500/10 focus:ring-blue-200 dark:focus:ring-blue-500/20',
+    },
+    download: {
+      icon: Download,
+      text: 'Download',
+      styles: 'text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-500/10 focus:ring-blue-200 dark:focus:ring-blue-500/20',
     },
   };
 
