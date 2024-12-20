@@ -29,7 +29,7 @@ export const useCallLogs = () => {
         if (callAssistantName) {
             // retreive inbound
             axios
-                .get(`${URL}?phone_number=${phoneNumber}&account_sid=${accountSid}&auth_token=${authToken}&limit=${PER_NUMBER_CALLS_LIMIT}&inbound=false`)
+                .get(`${URL}?phone_number=${phoneNumber}&account_sid=${accountSid}&auth_token=${authToken}&limit=${PER_NUMBER_CALLS_LIMIT}&inbound=true`)
                 .then((response) => {
                     const data = response.data;
                     if (!data.error) {
