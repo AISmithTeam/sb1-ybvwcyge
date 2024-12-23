@@ -2,8 +2,7 @@ import React from 'react';
 import { Phone, Calendar, Clock, Bot, Hash, DollarSign, XCircle } from 'lucide-react';
 import WaveformVisualizer from './WaveformVisualizer';
 import { LogEntry } from './types';
-import { useCallLogs } from '../../hooks/useCallLogs';
-
+import { useAudioCallRecording } from '../../hooks/useAudioCallRecording';
 interface Log {
   id: number;
   callId: string;
@@ -47,6 +46,8 @@ const LogsTable = ( {callLogs} : logsTableProps ) => {
         return 'bg-blue-50 text-blue-700 border-blue-100 dark:bg-blue-500/10 dark:text-blue-300 dark:border-blue-500/20';
     }
   };
+
+  
   return (
     <div className="overflow-x-auto">
       <table className="w-full">

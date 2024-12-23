@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ActionButton from '../common/ActionButton';
 import { useAudioCallRecording } from '../../hooks/useAudioCallRecording';
 
@@ -10,10 +10,18 @@ interface WaveformVisualizerProps {
 }
 
 const WaveformVisualizer = ({ data, recordingDataUrl, accountSid, authToken }: WaveformVisualizerProps) => {
+  console.log('INVOKED');
   const {recordingUrl, recordingUri} = useAudioCallRecording({recordingDataUrl, accountSid, authToken});
+  const [playClicked, setPlayClicked] = useState(false);
+  const [recordingIsSet, setRecordingIsSet] = useState(false);
+  const [recordingAudio, setRecordingAudio] = useState(new Audio());
+
   if (recordingUri) {
-    console.log(recordingUrl);
-    const recordingAudio = new Audio(recordingUrl);
+    if (!recordingIsSet) {
+      setRecordingAudio(new Audio(recordingUrl));
+      setRecordingIsSet(true);
+    }
+
     return (
           <div className="h-8 flex items-center gap-[1px]">
             {data.map((value, index) => (
@@ -26,12 +34,21 @@ const WaveformVisualizer = ({ data, recordingDataUrl, accountSid, authToken }: W
                 }}
               />
             ))}
-          <ActionButton
+          {!playClicked ?
+            <ActionButton
             variant={'play'}
             showText={false}
-            onClick={() => {recordingAudio.play()}}
+            onClick={() => {recordingAudio.play(); setPlayClicked(true)}}
             className="bg-white/80 dark:bg-dark-800/80"
-          />
+            />
+            :
+            <ActionButton
+            variant={'pause'}
+            showText={false}
+            onClick={() => {recordingAudio.pause(); setPlayClicked(false)}}
+            className="bg-white/80 dark:bg-dark-800/80"
+            />
+          }
           <ActionButton
             variant={'download'}
             showText={false}
