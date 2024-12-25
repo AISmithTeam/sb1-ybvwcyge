@@ -8,11 +8,13 @@ import { usePhoneNumbers } from '../../hooks/usePhoneNumbers';
 
 interface CampaignCardProps {
   campaign: Campaign;
+  onEdit: (campaign: Campaign) => void;
+  onDelete: (campaign: Campaign) => void;
 }
 
-const CampaignCard = ({ campaign }: CampaignCardProps) => {
+const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
   const getStatusColor = (status: string) => {
-    return status === 'active' 
+    return status === 'active'
       ? 'bg-green-50 text-green-700 border-green-100 dark:bg-green-500/10 dark:text-green-300 dark:border-green-500/20'
       : 'bg-slate-50 text-slate-700 border-slate-100 dark:bg-slate-500/10 dark:text-slate-300 dark:border-slate-500/20';
   };
@@ -36,12 +38,14 @@ const CampaignCard = ({ campaign }: CampaignCardProps) => {
           <div className="flex gap-1.5">
             <ActionButton 
               variant="edit" 
-              showText={false} 
+              showText={false}
+              onClick={() => onEdit(campaign)}
               className="bg-white/80 dark:bg-dark-800/80 hover:bg-white dark:hover:bg-dark-700"
             />
             <ActionButton 
               variant="delete" 
               showText={false}
+              onClick={() => onDelete(campaign)}
               className="bg-white/80 dark:bg-dark-800/80 hover:bg-white dark:hover:bg-dark-700"
             />
           </div>

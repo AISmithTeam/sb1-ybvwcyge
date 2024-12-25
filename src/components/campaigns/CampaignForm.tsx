@@ -14,19 +14,20 @@ import type { Campaign } from './types';
 
 interface CampaignFormProps {
   assistants: Assistant[];
+  campaign: Campaign | null;
   onClose: () => void;
   onSave: (campaign: Campaign) => void;
 }
 
-const CampaignForm = ({ assistants, onClose, onSave }: CampaignFormProps) => {
+const CampaignForm = ({ assistants, campaign, onClose, onSave }: CampaignFormProps) => {
   const { 
-    formData, 
-    showValidation, 
-    handleInputChange, 
-    handleNumberInputChange, 
-    handleSubmit, 
-    isRequiredFieldsValid 
-  } = useCampaignForm(onSave);
+    formData,
+    showValidation,
+    handleInputChange,
+    handleNumberInputChange,
+    handleSubmit,
+    isRequiredFieldsValid
+  } = useCampaignForm(campaign, onSave);
   const { phoneNumbers } = usePhoneNumbers();
 
   return (

@@ -10,7 +10,6 @@ interface WaveformVisualizerProps {
 }
 
 const WaveformVisualizer = ({ data, recordingDataUrl, accountSid, authToken }: WaveformVisualizerProps) => {
-  console.log('INVOKED');
   const {recordingUrl, recordingUri} = useAudioCallRecording({recordingDataUrl, accountSid, authToken});
   const [playClicked, setPlayClicked] = useState(false);
   const [recordingIsSet, setRecordingIsSet] = useState(false);

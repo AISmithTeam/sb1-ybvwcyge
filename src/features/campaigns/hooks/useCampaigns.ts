@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import type { Campaign } from '../types';
+import type { Campaign } from '../../../components/campaigns/types';
 
 import axios from 'axios';
 
@@ -27,7 +27,7 @@ export const useCampaigns = () => {
     form.append("end_time", campaign.time.end);
     form.append("max_recalls", campaign.maxCalls.toString());
     form.append("recall_interval", "360"); // fixme must be recall interval
-    form.append("uploaded_file", campaign.file); // testme 
+    //form.append("uploaded_file", campaign.file); // testme 
     form.append("file_name", ""); // fixme must be filename
     form.append("campaign_status", campaign.status);
     axios
@@ -53,6 +53,7 @@ export const useCampaigns = () => {
   return {
     campaigns,
     addCampaign,
+    setCampaigns,
     updateCampaign,
     deleteCampaign
   };

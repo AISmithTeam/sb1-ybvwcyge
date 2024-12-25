@@ -31,9 +31,25 @@ const initialFormData: CampaignFormData = {
   file: null
 };
 
-export const useCampaignForm = (onSave: (campaign: Campaign) => void) => {
+export const useCampaignForm = (campaign: Campaign | null, onSave: (campaign: Campaign) => void) => {
   const [formData, setFormData] = useState<CampaignFormData>(initialFormData);
+  const [isEditing, setIsEditing] = useState(false);
   const [showValidation, setShowValidation] = useState(false);
+  console.log('INVOKED');
+
+  if (campaign && !isEditing) {
+    setFormData( {
+      name: campaign.name,
+      assistantId: campaign.assistant,
+      type: campaign.type,
+      phoneNumberId: campaign.number,
+      timeRange: campaign.time,
+      recallsInterval: 0,
+      maxCalls: 1,
+      file: null
+    } );
+    setIsEditing(true);
+  }
 
   const handleInputChange = (field: keyof CampaignFormData, value: any) => {
     setFormData(prev => ({
