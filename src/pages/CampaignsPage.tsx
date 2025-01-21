@@ -6,10 +6,12 @@ import CampaignForm from '../components/campaigns/CampaignForm';
 import { useAssistants } from '../hooks/useAssistants';
 import { useCampaigns } from '../features/campaigns/hooks/useCampaigns';
 import type { Campaign } from '../components/campaigns/types';
+import { usePhoneNumbers } from '../hooks/usePhoneNumbers';
 
 const CampaignsPage = () => {
+  console.log('INVOKED')
   const [isEditing, setIsEditing] = useState(false);
-  const { assistants } = useAssistants();
+  const { assistants } = useAssistants(false);
   const { campaigns, addCampaign, setCampaigns } = useCampaigns();
 
   const [editingCampaign, setEditingCampaign] = useState<Campaign | null>(null);
@@ -27,10 +29,9 @@ const CampaignsPage = () => {
     if (!isEditing) {
       addCampaign(campaign);
     } else {
-      updateCampaign(campaign)      
+      updateCampaign(campaign); 
       setIsEditing(false);
     }
-
   };
 
   const updateCampaign = (campaign: Campaign) => {

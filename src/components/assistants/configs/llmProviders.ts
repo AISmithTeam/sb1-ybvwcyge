@@ -6,9 +6,15 @@ export const llmProviders: Provider[] = [
     name: 'OpenAI',
     models: [
       {
-        id: 'gpt-4',
+        id: 'gpt-4o',
         name: 'GPT-4 - Most Capable',
         description: 'Most capable model, best at complex tasks and reasoning',
+        voices: []
+      },
+      {
+        id: 'gpt-4o-realtime',
+        name: 'GPT-4o-Realtime - Most Capable Realtime',
+        description: 'Optimized for realtime voice conversations where response speed is essential',
         voices: []
       },
       {

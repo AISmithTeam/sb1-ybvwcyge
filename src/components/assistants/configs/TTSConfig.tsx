@@ -9,8 +9,9 @@ interface TTSConfigProps {
   config: {
     provider: string;
     model: string;
+    voice: string;
   };
-  onChange: (updates: { provider?: string; model?: string }) => void;
+  onChange: (updates: { provider?: string; model?: string; voice?: string; }) => void;
   showValidationErrors?: boolean;
 }
 
@@ -29,6 +30,10 @@ const TTSConfig = ({ config, onChange, showValidationErrors }: TTSConfigProps) =
     onChange({ model: modelId });
   };
 
+  const handleVoiceChange = (voiceId: string) => {
+    onChange({ voice: voiceId });
+  };
+
   const handleFeaturesChange = (updates: Partial<TTSFeaturesConfig>) => {
     setFeatures(prev => ({ ...prev, ...updates }));
   };
@@ -40,8 +45,10 @@ const TTSConfig = ({ config, onChange, showValidationErrors }: TTSConfigProps) =
         providers={ttsProviders}
         selectedProvider={config.provider}
         selectedModel={config.model}
+        selectedVoice={config.voice}
         onProviderChange={handleProviderChange}
         onModelChange={handleModelChange}
+        onVoiceChange={handleVoiceChange}
         isRequired={true}
         showError={showValidationErrors && (!config.provider || !config.model)}
       />

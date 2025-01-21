@@ -1,12 +1,15 @@
 export interface Voice {
   id: string;
   name: string;
+  description: string;
+  recording: string; // path to recording file
 }
 
 export interface Model {
   id: string;
   name: string;
   description?: string;
+  voices?: Voice[];
 }
 
 export interface Provider {
@@ -34,6 +37,7 @@ export interface LLMFeaturesConfig {
   temperature: number;
   maxTokens: number;
   systemPrompt: string;
+  initialMessage: string;
   trainingFile: File | null;
 }
 

@@ -22,8 +22,8 @@ const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
   const { assistants, createAssistant, updateAssistant, deleteAssistant } = useAssistants();
   const { phoneNumbers, createPhoneNumber, updatePhoneNumber, deletePhoneNumber, togglePhoneNumberStatus} = usePhoneNumbers();
 
-  const assistantName = assistants.find(p => p.id?.toString() === campaign.assistant)?.name;
-  const phoneNumber = phoneNumbers.find(p => p.id?.toString() === campaign.number)?.number;
+  const assistantName = assistants.find(p => p.id === campaign.assistant)?.name;
+  const phoneNumber = phoneNumbers.find(p => p.id === campaign.number)?.number;
 
   return (
     <Card variant="glass" className="hover:shadow-lg transition-shadow duration-200 flex flex-col">

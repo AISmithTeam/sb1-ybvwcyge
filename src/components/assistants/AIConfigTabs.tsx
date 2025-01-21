@@ -38,7 +38,7 @@ const AIConfigTabs = ({ validation, onValidationChange, showValidationErrors }: 
     setActiveTab(tabId);
   };
 
-  const handleConfigChange = (type: 'stt' | 'llm' | 'tts', updates: { provider?: string; model?: string; prompt?: string }) => {
+  const handleConfigChange = (type: 'stt' | 'llm' | 'tts', updates: { provider?: string; model?: string; prompt?: string; first_message?: string }) => {
     onValidationChange(type, updates);
   };
 

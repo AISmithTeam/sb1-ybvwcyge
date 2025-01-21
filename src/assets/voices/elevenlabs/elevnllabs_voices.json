@@ -1,0 +1,4999 @@
+{
+    "voices": [
+      {
+        "voice_id": "9BWtsMINqrJLrRacOk9x",
+        "name": "Aria",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "expressive",
+          "age": "middle-aged",
+          "gender": "female",
+          "use_case": "social media"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/9BWtsMINqrJLrRacOk9x/405766b8-1f4e-4d3c-aba1-6f25333823ec.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+        "name": "Roger",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "failed",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "confident",
+          "age": "middle-aged",
+          "gender": "male",
+          "use_case": "social media"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/CwhRBWXzGAHq8TQ4Fs17/58ee3ff5-f6f2-4628-93b8-e38eb31806b0.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "EXAVITQu4vr4xnSDxMaL",
+        "name": "Sarah",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "american",
+          "description": "soft",
+          "age": "young",
+          "gender": "female",
+          "use_case": "news"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/EXAVITQu4vr4xnSDxMaL/01a3e33c-6e99-4ee7-8543-ff2216a32186.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2",
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+        "name": "Laura",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "upbeat",
+          "age": "young",
+          "gender": "female",
+          "use_case": "social media"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/FGY2WhTYpPnrIDTdsKH5/67341759-ad08-41a5-be6e-de12fe448618.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "IKne3meq5aSn9XLyUdCD",
+        "name": "Charlie",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "Australian",
+          "description": "natural",
+          "age": "middle aged",
+          "gender": "male",
+          "use_case": "conversational"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/IKne3meq5aSn9XLyUdCD/102de6f2-22ed-43e0-a1f1-111fa75c5481.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_multilingual_v1",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+        "name": "George",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_v2_flash": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_turbo_v2": "",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "British",
+          "description": "warm",
+          "age": "middle aged",
+          "gender": "male",
+          "use_case": "narration"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/JBFqnCBsd6RMkjVDRZzb/e6206d1a-0721-4787-aafb-06a6e705cac5.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+        "name": "Callum",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "Transatlantic",
+          "description": "intense",
+          "age": "middle-aged",
+          "gender": "male",
+          "use_case": "characters"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/N2lVS1w4EtoT3dr4eOWO/ac833bd8-ffda-4938-9ebc-b0f99ca25481.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_multilingual_v1",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "SAz9YHcvj6GT2YYXdXww",
+        "name": "River",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "confident",
+          "age": "middle-aged",
+          "gender": "non-binary",
+          "use_case": "social media"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_sts_v2",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+        "name": "Liam",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_v2_flash": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_turbo_v2": "",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "articulate",
+          "age": "young",
+          "gender": "male",
+          "use_case": "narration"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/TX3LPaxmHKxFdv7VOQHJ/63148076-6363-42db-aea8-31424308b92c.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_multilingual_v1",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "XB0fDUnXU5powFXDhCwa",
+        "name": "Charlotte",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "Swedish",
+          "description": "seductive",
+          "age": "young",
+          "gender": "female",
+          "use_case": "characters"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/XB0fDUnXU5powFXDhCwa/942356dc-f10d-4d89-bda5-4f8505ee038b.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_multilingual_v1",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+        "name": "Alice",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "British",
+          "description": "confident",
+          "age": "middle-aged",
+          "gender": "female",
+          "use_case": "news"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/Xb7hH8MSUJpSbSDYk0k2/d10f7534-11f6-41fe-a012-2de1e482d336.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "XrExE9yKIg1WjnnlVkGX",
+        "name": "Matilda",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_v2_flash": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_turbo_v2": "",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "friendly",
+          "age": "middle-aged",
+          "gender": "female",
+          "use_case": "narration"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/XrExE9yKIg1WjnnlVkGX/b930e18d-6b4d-466e-bab2-0ae97c6d8535.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_multilingual_v1",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "bIHbv24MWmeRgasZH58o",
+        "name": "Will",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "friendly",
+          "age": "young",
+          "gender": "male",
+          "use_case": "social media"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/bIHbv24MWmeRgasZH58o/8caf8f3d-ad29-4980-af41-53f20c72d7a4.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "cgSgspJ2msm6clMCkdW9",
+        "name": "Jessica",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "expressive",
+          "age": "young",
+          "gender": "female",
+          "use_case": "conversational"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/cgSgspJ2msm6clMCkdW9/56a97bf8-b69b-448f-846c-c3a11683d45a.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "cjVigY5qzO86Huf0OWal",
+        "name": "Eric",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "friendly",
+          "age": "middle-aged",
+          "gender": "male",
+          "use_case": "conversational"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/cjVigY5qzO86Huf0OWal/d098fda0-6456-4030-b3d8-63aa048c9070.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "iP95p4xoKVk53GoZ742B",
+        "name": "Chris",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "casual",
+          "age": "middle-aged",
+          "gender": "male",
+          "use_case": "conversational"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/iP95p4xoKVk53GoZ742B/3f4bde72-cc48-40dd-829f-57fbf906f4d7.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "nPczCjzI2devNBz1zQrb",
+        "name": "Brian",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "deep",
+          "age": "middle-aged",
+          "gender": "male",
+          "use_case": "narration"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/nPczCjzI2devNBz1zQrb/2dd3e72c-4fd3-42f1-93ea-abc5d4e5aa1d.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "onwK4e9ZLuTAKqWW03F9",
+        "name": "Daniel",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "British",
+          "description": "authoritative",
+          "age": "middle-aged",
+          "gender": "male",
+          "use_case": "news"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/onwK4e9ZLuTAKqWW03F9/7eee0236-1a72-4b86-b303-5dcadc007ba9.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_multilingual_v1",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+        "name": "Lily",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "British",
+          "description": "warm",
+          "age": "middle-aged",
+          "gender": "female",
+          "use_case": "narration"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/pFZP5JQG7iQjIQuC4Bku/89b68b35-b3dd-4348-a84a-a3c13a3c2b30.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "pqHfZKP75CvOlQylNhV4",
+        "name": "Bill",
+        "samples": null,
+        "category": "premade",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_flash_v2_5": 1,
+            "eleven_v2_flash": 1,
+            "eleven_flash_v2": 1,
+            "eleven_v2_5_flash": 1
+          },
+          "message": {
+            "eleven_flash_v2_5": "Done!",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "Done!",
+            "eleven_v2_flash": "Done!",
+            "eleven_v2_5_flash": "Done!"
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "accent": "American",
+          "description": "trustworthy",
+          "age": "old",
+          "gender": "male",
+          "use_case": "narration"
+        },
+        "description": null,
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/pqHfZKP75CvOlQylNhV4/d782b3ff-84ba-4029-848c-acf01285524d.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_turbo_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": null,
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "2OdNfs9Z4GCMvoFiCavC",
+        "name": "Max - Clear & Professional",
+        "samples": [
+          {
+            "sample_id": "nGm8ZDM89M12NJJRYLP3",
+            "file_name": "армииразныхстранмира.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 21111504,
+            "hash": "01067bcc2d49c92dda2df4457ec43a2f"
+          },
+          {
+            "sample_id": "5PrTBChuG8Ehf14nwcJp",
+            "file_name": "сравнение ракет.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 29769240,
+            "hash": "1310b52918a2cab474f3a9f6adef8481"
+          },
+          {
+            "sample_id": "mKBjoQNY3LvUEtXquk9r",
+            "file_name": "третьямироваявойна.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 19436064,
+            "hash": "1c72b3571ded23f36d18f873f7d1d39e"
+          },
+          {
+            "sample_id": "g751B9eqHTaW0ntwrV0n",
+            "file_name": "т90танк.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 13683768,
+            "hash": "31a711d5750c404fe1c20d06a6756da2"
+          },
+          {
+            "sample_id": "MXyeNasAQUtIaHYX0JdK",
+            "file_name": "политические идеологии.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 31435416,
+            "hash": "39f7a5fbe663d89f56da08b18a66a418"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "ru",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "ru",
+          "descriptive": "professional",
+          "accent": "standard",
+          "gender": "male",
+          "age": "middle_aged",
+          "use_case": "informative_educational"
+        },
+        "description": "A clear and professional male voice. Perfect for narratives, social media, podcasts, and educational content. Voice is also perfect for YouTube content creation. His clear and engaging tone can bring your scripts to life, making your videos more compelling and enjoyable for your audience.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/2OdNfs9Z4GCMvoFiCavC/cglHI9CabFb7XcanBQKf.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1723732739,
+          "whitelisted_emails": [],
+          "public_owner_id": "7977dbfcf98cc827f8751e8f66496b09ca833de4e2670c4a808c17bef8e1db9a",
+          "original_voice_id": "2OdNfs9Z4GCMvoFiCavC",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": false,
+          "live_moderation_enabled": false,
+          "rate": 2,
+          "notice_period": 180,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Max - Clear & Professional",
+          "description": "A clear and professional male voice. Perfect for narratives, social media, podcasts, and educational content. Voice is also perfect for YouTube content creation. His clear and engaging tone can bring your scripts to life, making your videos more compelling and enjoyable for your audience.",
+          "labels": {
+            "language": "ru",
+            "descriptive": "professional",
+            "accent": "standard",
+            "gender": "male",
+            "age": "middle_aged",
+            "use_case": "informative_educational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2_5",
+          "eleven_v2_5_flash",
+          "eleven_multilingual_v2",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "4mdk2WvTKmsMhdiu5PoI",
+        "name": "konstantin kovalev",
+        "samples": [
+          {
+            "sample_id": "fZYJVN5QvQpBcgbEQWT1",
+            "file_name": "konstkov_enf_11labs (online-audio-converter.com).mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 159345809,
+            "hash": "75c19ea557f912a44c088e8cd79b1025"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned"
+          },
+          "verification_failures": [
+            "Time limit for voice verification exceeded.",
+            "Spoken text doesn't match the presented text.",
+            "None"
+          ],
+          "verification_attempts_count": 3,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {
+            "eleven_multilingual_v2": 1,
+            "eleven_turbo_v2": 1
+          },
+          "message": {
+            "eleven_multilingual_v2": "Done!",
+            "eleven_turbo_v2": "Done!"
+          },
+          "dataset_duration_seconds": 3584.287109375,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {},
+        "description": "Konstantin is reading Hormozi book in english ",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/dSbDcNyMyyPAYKwYEq7qQCZo9eC2/voices/4mdk2WvTKmsMhdiu5PoI/009396f9-b4a7-439d-b070-ee3f77eecb10.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2",
+          "eleven_multilingual_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": true,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "74s0ZNaUEOKhDHSxgJZq",
+        "name": "Darren",
+        "samples": [
+          {
+            "sample_id": "CEbCYX3jcxXwhO3ITkjL",
+            "file_name": "ElevenLabs Professional Voice Recording.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 56938607,
+            "hash": "bebd138f153913e2415b25141db9bb8e"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": "",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "",
+            "eleven_multilingual_sts_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 0,
+          "next_max_verification_attempts_reset_unix_ms": 0
+        },
+        "labels": {
+          "accent": "american",
+          "descriptive": "confident",
+          "age": "young",
+          "gender": "male",
+          "language": "en",
+          "use_case": "conversational"
+        },
+        "description": "A young corporate American male voice. Good for casual conversations.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/0iSQFBchFQewbixe6EtmB1mNs6G2/voices/74s0ZNaUEOKhDHSxgJZq/08fedf82-858b-4d80-b396-5c5ef9519999.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1737370026,
+          "whitelisted_emails": [],
+          "public_owner_id": "0e51ff9c73492ef179241d8b8a6aa441386eb6ecc25e20f3d5d6f28e98890493",
+          "original_voice_id": "74s0ZNaUEOKhDHSxgJZq",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 0,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": null,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Darren",
+          "description": "A young corporate American male voice. Good for casual conversations.",
+          "labels": {
+            "language": "en",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "male",
+            "accent": "american",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2_5",
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_multilingual_sts_v2",
+          "eleven_turbo_v2",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": 1737370026
+      },
+      {
+        "voice_id": "7WA7AetTUEizsUIMqU9n",
+        "name": "Priya - affectionate and delicate",
+        "samples": null,
+        "category": "generated",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": false,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": null,
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": null,
+          "next_max_verification_attempts_reset_unix_ms": null
+        },
+        "labels": {
+          "accent": "indian",
+          "descriptive": "calm",
+          "age": "young",
+          "gender": "female",
+          "use_case": "conversational"
+        },
+        "description": "Young indian woman. A calm voice which makes it great for conversations.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/xcpdkIV6GoPJb4UApYRLpSFQNUO2/voices/B4djpkEf3uWPeszz6CU9/e705f3c0-1a0f-482b-a88e-e7d1835427e8.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721991439,
+          "whitelisted_emails": [],
+          "public_owner_id": "899444b1d9eab0cea6d20686befafde9ccdc46ab4628e79973cf318a9497b138",
+          "original_voice_id": "B4djpkEf3uWPeszz6CU9",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 0,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "generated",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Priya - affectionate and delicate",
+          "description": "Young indian woman. A calm voice which makes it great for conversations.",
+          "labels": {
+            "accent": "indian",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "female",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "8M81RK3MD7u4DOJpu2G5",
+        "name": "Viktoriia - clear, resonant young female voice",
+        "samples": [
+          {
+            "sample_id": "TEUuLOxvuUBRUyzHmIQm",
+            "file_name": "Viktoriia.top.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 61568256,
+            "hash": "c1c2a47524e262adc5b4d7edf81ba943"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "ru",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "ru",
+          "age": "young",
+          "gender": "female",
+          "use_case": "social_media"
+        },
+        "description": "A clear, resonant young female voice filled with enthusiasm for voicing podcasts, books, cartoon characters, and short videos. Thanks to the charisma in the voice, it conveys the mood of the characters.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/8M81RK3MD7u4DOJpu2G5/CH3ACYZPwsLPu0b4GMs8.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1723712397,
+          "whitelisted_emails": [],
+          "public_owner_id": "9b4019bd3f1ab53940b6c0df9c2138c2b9472f2ab688284299c30ff70ee5a7f7",
+          "original_voice_id": "8M81RK3MD7u4DOJpu2G5",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": false,
+          "live_moderation_enabled": false,
+          "rate": 2,
+          "notice_period": 90,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Viktoriia - clear, resonant young female voice",
+          "description": "A clear, resonant young female voice filled with enthusiasm for voicing podcasts, books, cartoon characters, and short videos. Thanks to the charisma in the voice, it conveys the mood of the characters.",
+          "labels": {
+            "language": "ru",
+            "age": "young",
+            "gender": "female",
+            "use_case": "social_media"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2_5",
+          "eleven_v2_5_flash",
+          "eleven_multilingual_v2",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "CXnVqQUDWrL2LI68nLaH",
+        "name": "konstantin russian short version ",
+        "samples": [
+          {
+            "sample_id": "ENhrn9dojKO5gevzdwkg",
+            "file_name": "Konstantin Russian voice.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 3019161,
+            "hash": "608e979ce2eef30c741c1ea3485e6e76"
+          }
+        ],
+        "category": "cloned",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": false,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": null,
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": null,
+          "next_max_verification_attempts_reset_unix_ms": null
+        },
+        "labels": {},
+        "description": "Russian Konstantin",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/dSbDcNyMyyPAYKwYEq7qQCZo9eC2/voices/CXnVqQUDWrL2LI68nLaH/dea0896e-fa0b-4ea2-8d75-b5cca1f91246.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": true,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "DJDkcaY4POaxra3iaZ5b",
+        "name": "Natasha - Energetic Hindi Voice",
+        "samples": [
+          {
+            "sample_id": "0jXI7c23jli879ykO83z",
+            "file_name": "VO 31.03.2024 [Kanchan Hindi Processed].mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 260559360,
+            "hash": "d42b20cf02eacc26c5ae81f6fae58984"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "hi",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_multilingual_sts_v2": "",
+            "eleven_v2_5_flash": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "hi",
+          "descriptive": "excited",
+          "accent": "standard",
+          "gender": "female",
+          "age": "middle_aged",
+          "use_case": "conversational"
+        },
+        "description": "The Hindi voiceover brings a lively and engaging energy to the narrative, perfectly tailored for the vibrant world of social media, entertainment, and television. It exudes a pleasant and excited tone that makes the content more conversational and accessible, inviting audiences to connect and participate causally. This energetic storytelling captures the essence of contemporary Hindi-speaking audiences, making each moment on screen feel like a shared experience.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/DJDkcaY4POaxra3iaZ5b/kqsb2zlPdbJV7ogM5PXz.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721989053,
+          "whitelisted_emails": [],
+          "public_owner_id": "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+          "original_voice_id": "DJDkcaY4POaxra3iaZ5b",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Natasha - Energetic Hindi Voice",
+          "description": "The Hindi voiceover brings a lively and engaging energy to the narrative, perfectly tailored for the vibrant world of social media, entertainment, and television. It exudes a pleasant and excited tone that makes the content more conversational and accessible, inviting audiences to connect and participate causally. This energetic storytelling captures the essence of contemporary Hindi-speaking audiences, making each moment on screen feel like a shared experience.",
+          "labels": {
+            "language": "hi",
+            "descriptive": "excited",
+            "accent": "standard",
+            "gender": "female",
+            "age": "middle_aged",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2_5",
+          "eleven_multilingual_sts_v2",
+          "eleven_flash_v2_5",
+          "eleven_v2_5_flash"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "GmFTLmbJZD5UAp7K16nb",
+        "name": "Lila - Intelligent and emotive",
+        "samples": null,
+        "category": "generated",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": false,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": null,
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": null,
+          "next_max_verification_attempts_reset_unix_ms": null
+        },
+        "labels": {
+          "accent": "indian",
+          "descriptive": "formal",
+          "age": "young",
+          "gender": "female",
+          "use_case": "conversational"
+        },
+        "description": "A Young Indian woman. A wide range voice great for a broadcaster.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/y53gCUzCWyXUpljRMs3MpmcCDeF3/voices/kT3FZjoTWR9qUtiHFgSe/16b6df57-a87e-41da-a896-825610278fa5.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721991064,
+          "whitelisted_emails": [],
+          "public_owner_id": "887d2dc20e77ba2097324745303bf1ad7669db35ceabe745ef85280b912f1c83",
+          "original_voice_id": "kT3FZjoTWR9qUtiHFgSe",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 0,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "generated",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Lila - Intelligent and emotive",
+          "description": "A Young Indian woman. A wide range voice great for a broadcaster.",
+          "labels": {
+            "accent": "indian",
+            "descriptive": "formal",
+            "age": "young",
+            "gender": "female",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "GrXoFlwungzHH6IB2QFV",
+        "name": "Priya",
+        "samples": null,
+        "category": "generated",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": false,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": null,
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": null,
+          "next_max_verification_attempts_reset_unix_ms": null
+        },
+        "labels": {
+          "accent": "indian",
+          "descriptive": "casual",
+          "age": "young",
+          "gender": "female",
+          "use_case": "conversational"
+        },
+        "description": "Young Indian Female voice. Perfect for conversations.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/RlVItsQYWJd3xz1PV7ETomvbuOc2/voices/yn8ZQlOnXL7fqHYEcitS/ff8534e3-a5c5-41f4-aad2-97becdf72333.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721990991,
+          "whitelisted_emails": [],
+          "public_owner_id": "4ac8778dd2471dfc4841c64f0f1767c468f385617e66a642f9dba9f6ce15ea01",
+          "original_voice_id": "yn8ZQlOnXL7fqHYEcitS",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 0,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "generated",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Priya",
+          "description": "Young Indian Female voice. Perfect for conversations.",
+          "labels": {
+            "accent": "indian",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "female",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "HDA9tsk27wYi3uq0fPcK",
+        "name": "Stuart - Energetic and enthusiastic",
+        "samples": [
+          {
+            "sample_id": "K5OomMF1zN11t4uBPEuX",
+            "file_name": "Flutterflow Push Notifications.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 74359874,
+            "hash": "01fbdeafd3b13e642c9a7e41c7f0e385"
+          },
+          {
+            "sample_id": "Pl00LcztnJl9K01ebhNe",
+            "file_name": "Rowy Trigger.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 43045614,
+            "hash": "777c3ead37ec9acbdda8463a7a45048d"
+          },
+          {
+            "sample_id": "gi666Iua5bnqkwLja15O",
+            "file_name": "Flutterflow x Buildship.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 112348598,
+            "hash": "9dcee2a55c2069b53269ba25310536f0"
+          },
+          {
+            "sample_id": "G6SGcFMldEEZL7KqSwiW",
+            "file_name": "Gmail Node (Google Workspace series).mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 46288414,
+            "hash": "de38a1a5bfe27a3d212823c15ea5f115"
+          },
+          {
+            "sample_id": "3YPRw1wkcKIUuvj062ad",
+            "file_name": "Buildship x Google Forms.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 50545670,
+            "hash": "e408663b0521c137c2862da3207a9353"
+          },
+          {
+            "sample_id": "4vY5snuuYgjHsufRWK5y",
+            "file_name": "Google Docs Nodes (Google Workspace series).mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 9876702,
+            "hash": "e5de2992fb2b6df2b61ece5a3ea61f42"
+          },
+          {
+            "sample_id": "lYDSeTF907wmqMN9whiX",
+            "file_name": "Firebase Authenticated User.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 98101938,
+            "hash": "f20915e6ecbaf13e57484d5aa3a3342b"
+          },
+          {
+            "sample_id": "vdLHXZjFXAtYYcLEOSfZ",
+            "file_name": "sheets-bardeen.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 117121796,
+            "hash": "fdedd5ba9fe8309eca873b1608eb29d2"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuning",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_flash_v2": "",
+            "eleven_turbo_v2": "",
+            "eleven_multilingual_sts_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 0,
+          "next_max_verification_attempts_reset_unix_ms": 0
+        },
+        "labels": {
+          "accent": "australian",
+          "descriptive": "upbeat",
+          "age": "middle_aged",
+          "gender": "male",
+          "language": "en",
+          "use_case": "informative_educational"
+        },
+        "description": "A 40-year-old Australian male He speaks with a softer Australian accent, not the broad, stereotypical twang often associated with the Outback, but rather a gentler, more refined tone that reflects his maturity and sophistication.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/3LUrnzimItRhFJyBGCNQfSc602Y2/voices/HDA9tsk27wYi3uq0fPcK/4AhIQcGzr8aDvnONN3bh.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1733503115,
+          "whitelisted_emails": [],
+          "public_owner_id": "253a2639c534f14fb01be213f492c3a54dc0c0fb981b6e400fad589ac8a9a5b0",
+          "original_voice_id": "HDA9tsk27wYi3uq0fPcK",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 180,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "high_quality",
+          "reader_app_enabled": true,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Stuart - Energetic and enthusiastic",
+          "description": "A 40-year-old Australian male He speaks with a softer Australian accent, not the broad, stereotypical twang often associated with the Outback, but rather a gentler, more refined tone that reflects his maturity and sophistication.",
+          "labels": {
+            "language": "en",
+            "descriptive": "upbeat",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "australian",
+            "use_case": "informative_educational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_sts_v2",
+          "eleven_v2_flash",
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2",
+          "eleven_flash_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": 1733503115
+      },
+      {
+        "voice_id": "L0Dsvb3SLTyegXwtm47J",
+        "name": "Archer",
+        "samples": [
+          {
+            "sample_id": "vrZhLoT2a9Hcwert8qqm",
+            "file_name": "Audio-2024-05-09-140347.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 37672335,
+            "hash": "04f3cc33473721ed5835a55d4fca73dd"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "failed",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2_5": "failed",
+            "eleven_v2_5_flash": "failed"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 0,
+          "next_max_verification_attempts_reset_unix_ms": 0
+        },
+        "labels": {
+          "accent": "british",
+          "descriptive": "calm",
+          "age": "middle_aged",
+          "gender": "male",
+          "language": "en",
+          "use_case": "conversational"
+        },
+        "description": "Conversational, calm British, thirty-something, perfect for an AI agent.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/L0Dsvb3SLTyegXwtm47J/EKoXN08bacukhTjtp6sq.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1737360818,
+          "whitelisted_emails": [],
+          "public_owner_id": "8cab967ba4f7385d9544b0f35096242b8c6348e0165fd2bdc6de17c02bc6d60b",
+          "original_voice_id": "L0Dsvb3SLTyegXwtm47J",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 90,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "high_quality",
+          "reader_app_enabled": true,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Archer",
+          "description": "Conversational, calm British, thirty-something, perfect for an AI agent.",
+          "labels": {
+            "language": "en",
+            "descriptive": "calm",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "british",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2",
+          "eleven_multilingual_v2",
+          "eleven_v2_flash",
+          "eleven_flash_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": 1737360818
+      },
+      {
+        "voice_id": "NnjfwT6QTFTKQL3s6csi",
+        "name": "Vlad Russian",
+        "samples": [
+          {
+            "sample_id": "a2Gbj8IKa961n8T2kmsz",
+            "file_name": "Vlad Russian .mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 1090032,
+            "hash": "ed0b54c873ae04d4af4aa5d612ff73b9"
+          }
+        ],
+        "category": "cloned",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": false,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": null,
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": null,
+          "next_max_verification_attempts_reset_unix_ms": null
+        },
+        "labels": {},
+        "description": "Vlad Russian",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/dSbDcNyMyyPAYKwYEq7qQCZo9eC2/voices/NnjfwT6QTFTKQL3s6csi/fa861111-1a7d-45fd-856f-b6bcbbffe917.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": true,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "P7vsEyTOpZ6YUTulin8m",
+        "name": "Tara - Conversational Expressive Voice",
+        "samples": [
+          {
+            "sample_id": "ig0EStu4cGpB0eKEOxkN",
+            "file_name": "VO [RUTPANNA].mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 522508880,
+            "hash": "e611ad6db976ab4bb0643fb1b416cc48"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": "",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "",
+            "eleven_multilingual_sts_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "en",
+          "descriptive": "pleasant",
+          "accent": "indian",
+          "gender": "female",
+          "age": "young",
+          "use_case": "conversational"
+        },
+        "description": "Tara is a professional actress with extensive acting experience and great potential ahead. You will hear all those emotions in her voice. Give it a try, and I'm sure you will love it.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/P7vsEyTOpZ6YUTulin8m/S37OM3vG5E7e33WFgs8r.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721991659,
+          "whitelisted_emails": [],
+          "public_owner_id": "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+          "original_voice_id": "P7vsEyTOpZ6YUTulin8m",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Tara - Conversational Expressive Voice",
+          "description": "Tara is a professional actress with extensive acting experience and great potential ahead. You will hear all those emotions in her voice. Give it a try, and I'm sure you will love it.",
+          "labels": {
+            "language": "en",
+            "descriptive": "pleasant",
+            "accent": "indian",
+            "gender": "female",
+            "age": "young",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_sts_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2",
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2",
+          "eleven_v2_flash",
+          "eleven_turbo_v2_5",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "PR2ULjNP5RPFMFaO2Cv6",
+        "name": "Vlad Kovalev English Rap ",
+        "samples": [
+          {
+            "sample_id": "Sx1iyXZyhpKEbdL65QLF",
+            "file_name": "1 Street 7.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 1900555,
+            "hash": "9e19f4f98a55dc674b9d3dbd8072566f"
+          }
+        ],
+        "category": "cloned",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": false,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": null,
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": null,
+          "next_max_verification_attempts_reset_unix_ms": null
+        },
+        "labels": {},
+        "description": " A young adult rapping on english ",
+        "preview_url": null,
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [],
+        "safety_control": "NONE",
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": true,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "UgBBYS2sOqTuMpoF3BR0",
+        "name": "Mark - Natural Conversations",
+        "samples": [
+          {
+            "sample_id": "AaxP4XAVBhaSWjhVJnVS",
+            "file_name": "Mark - New ConvoAI Render - Final 23min - better.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 360878876,
+            "hash": "b845fdb91ae779b3c63b0e7cba2d4d73"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_turbo_v2": "",
+            "eleven_multilingual_sts_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 0,
+          "next_max_verification_attempts_reset_unix_ms": 0
+        },
+        "labels": {
+          "accent": "american",
+          "descriptive": "casual",
+          "age": "young",
+          "gender": "male",
+          "language": "en",
+          "use_case": "conversational"
+        },
+        "description": "A casual, young-adult speaking in a natural manner. Perfect for Conversational AI.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/y7Wmp2r8nCeGkLiXiwMOVWktro13/voices/UgBBYS2sOqTuMpoF3BR0/0Oc7jiXwWN9kRTXfQsmw.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1737363666,
+          "whitelisted_emails": [],
+          "public_owner_id": "024c9393c6380665357f60b1062c863cd635d79791f13d6f0a834a319d5ff56c",
+          "original_voice_id": "UgBBYS2sOqTuMpoF3BR0",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 365,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "high_quality",
+          "reader_app_enabled": true,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Mark - Natural Conversations",
+          "description": "A casual, young-adult speaking in a natural manner. Perfect for Conversational AI.",
+          "labels": {
+            "language": "en",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "accent": "american",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2_5",
+          "eleven_turbo_v2",
+          "eleven_multilingual_sts_v2",
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": 1737363666
+      },
+      {
+        "voice_id": "X9cCz43ZWcP3aLBSfFC2",
+        "name": "Al - Universal Storyteller ",
+        "samples": [
+          {
+            "sample_id": "4OMA6Q5V3somebekgBsy",
+            "file_name": "диппл 3.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26286542,
+            "hash": "035849b4c6a3af5c9a116d8863c489aa"
+          },
+          {
+            "sample_id": "oMBbTmXuSpoxtLkJ6kxL",
+            "file_name": "перплексити 13.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26458574,
+            "hash": "03ac3a27a87c418d5052907609d3f4ba"
+          },
+          {
+            "sample_id": "7HAiN9k1sJU0q6IWpsOK",
+            "file_name": "перплексити 5.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 28572110,
+            "hash": "03f429fb56a8e58b1b06c22d3eb1c6d5"
+          },
+          {
+            "sample_id": "YkF4Q1aHH780q9rsK7WA",
+            "file_name": "диппл 1.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 27662798,
+            "hash": "05012e3c56c6cb896d9ee4fe2bcc5bdf"
+          },
+          {
+            "sample_id": "ASaEpoghdtPiw1E251DO",
+            "file_name": "текст из видео 13.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 15030734,
+            "hash": "088d8c0f17ab8439a8c924015c251979"
+          },
+          {
+            "sample_id": "o44u0cweuwX2QF5gA7B0",
+            "file_name": "перплексити 9.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 28301774,
+            "hash": "0d694eeb7f7bc5b80d6695c1c8b3ff13"
+          },
+          {
+            "sample_id": "XdHv6P3G1MWgdI5insM3",
+            "file_name": "диппл 4.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26261966,
+            "hash": "0ea85e7b7a5a57a3ea91de2ee707f292"
+          },
+          {
+            "sample_id": "q0Z7Ax6iTDnvXwWHxCPB",
+            "file_name": "минусовки ч1.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 12253646,
+            "hash": "10301aa154c88d11faca3ed46086c1ed"
+          },
+          {
+            "sample_id": "CyTHVgBFehv7tsu9vDRM",
+            "file_name": "диппл 10.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 27245006,
+            "hash": "1191c4a80d49f3ae52928b1bf7828a2f"
+          },
+          {
+            "sample_id": "Lw0eZVd2NL7s4vsjOQVX",
+            "file_name": "параметры 5.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 31545806,
+            "hash": "1882ecda0df182d40ea6c89f6ae79d7c"
+          },
+          {
+            "sample_id": "BI5nwVjQcDhW8uCXOZAw",
+            "file_name": "текст из видео 1.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 31791566,
+            "hash": "1fd4af5a731a4f721a654ac6f4a20e24"
+          },
+          {
+            "sample_id": "wou2I5gqB5s003nv0zK7",
+            "file_name": "текст из видео 15.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 13728206,
+            "hash": "299d1fa3e0eae760b3b35ec69931ad41"
+          },
+          {
+            "sample_id": "aS1CdXjngiBg3u0r2iM9",
+            "file_name": "перплексити 8.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 28006862,
+            "hash": "2d9fe2acd7f5400de974e452e402a95e"
+          },
+          {
+            "sample_id": "Aza0njoQBTDhLYt6cYNI",
+            "file_name": "перплексити 12.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 27957710,
+            "hash": "2dcdf1f4c9425192bf2c5ccf951fca92"
+          },
+          {
+            "sample_id": "3fAXxE7kz42dsWJ0Fe5m",
+            "file_name": "текст из видео 14.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 30882254,
+            "hash": "2f8ba9b0643c58f373efc3e58e45203f"
+          },
+          {
+            "sample_id": "EJLDoRKHzOok3o29nn1V",
+            "file_name": "текст из видео 5.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 16480718,
+            "hash": "375ea47d9ffc5e4e4dbbca69c0e59503"
+          },
+          {
+            "sample_id": "OhqUtBN9x5MbyLk0c8T8",
+            "file_name": "диппл 6.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26728910,
+            "hash": "3895c3cbc15c3491e179c2a090d4e3db"
+          },
+          {
+            "sample_id": "ibwAnllCL3WpqP7GsfQC",
+            "file_name": "текст из видео 3.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 32700878,
+            "hash": "3a8b8e3ff6cd3703e62547a5c1714e84"
+          },
+          {
+            "sample_id": "nTa9A5r3WJvnRahlSjyg",
+            "file_name": "диппл 5.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26925518,
+            "hash": "3c99ec3112b2dc3fd9a7f9e500006040"
+          },
+          {
+            "sample_id": "wOl1x2n7QtpH6z2U2WQp",
+            "file_name": "диппл 2.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26016206,
+            "hash": "3de830299e7be9807093816c74ba9bf7"
+          },
+          {
+            "sample_id": "IffBJZzsJMpLbeleiLYy",
+            "file_name": "текст из видео 12.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 17635790,
+            "hash": "5788fa5ff846b725f5067bbb91aea872"
+          },
+          {
+            "sample_id": "J2912AsJHswpbYkqXWqe",
+            "file_name": "Текст из видео ч2.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 16112078,
+            "hash": "5e27c57797a01fcbfcc810a1552e0e4a"
+          },
+          {
+            "sample_id": "XOvJDJNYidcdeOq8c7A4",
+            "file_name": "плейграунд ч1.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 13113806,
+            "hash": "5f8a47dc956b7c3db822c5754db250e0"
+          },
+          {
+            "sample_id": "2O9kaOlMPMJBXCd3iW2i",
+            "file_name": "текст из видео 10.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 12696014,
+            "hash": "68b8452eb6b1aff245624af84df58b12"
+          },
+          {
+            "sample_id": "rAlAnAbnEyvrrZFyoC6n",
+            "file_name": "текст из видео 9.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 21739982,
+            "hash": "6f87c3ae0d464492d46573ead105c3bd"
+          },
+          {
+            "sample_id": "2qmLD1zI7K4tTV8RBOiM",
+            "file_name": "параметры 1.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 34593230,
+            "hash": "732f3a18586e9fe8259e8c6fa3814ab0"
+          },
+          {
+            "sample_id": "JdeHIb6h9gaQL4OXWcYc",
+            "file_name": "параметры 3.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 34396622,
+            "hash": "7b318d8310412536c259db8d69aab582"
+          },
+          {
+            "sample_id": "rSPFzbsrQ1J90TL4Wl5Q",
+            "file_name": "перплексити 1.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26753486,
+            "hash": "8bd57dfd3e452f06bc739f67d7a21efe"
+          },
+          {
+            "sample_id": "yFL0EElxgjQ8HN9jzHD6",
+            "file_name": "текст из видео 11.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 31619534,
+            "hash": "8c742bf9bd45ca79f755517afc8529c2"
+          },
+          {
+            "sample_id": "zh4TUvt1Oe8OcmUf7bDb",
+            "file_name": "диппл 8.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26261966,
+            "hash": "8fda1902cda2808d0ddc1a1923a74bf7"
+          },
+          {
+            "sample_id": "POmXlsPYREuJfgO7366P",
+            "file_name": "диппл 7.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 26876366,
+            "hash": "93749ef68f95ca013673bb1b8cae0fb6"
+          },
+          {
+            "sample_id": "tnUr8A3ikxVtrhmT0Rna",
+            "file_name": "текст из видео 8.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 30513614,
+            "hash": "a119f955d21794cf086f028aa578e648"
+          },
+          {
+            "sample_id": "rsQXmB44wJgr5ahektt2",
+            "file_name": "параметры 4.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 31619534,
+            "hash": "a1b3ad5ddf1099360250cfc9c04cf1b7"
+          },
+          {
+            "sample_id": "AnQ9wehgvyEZv03ZaoQ6",
+            "file_name": "Алексенцев прогноз 2024 8.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 56859086,
+            "hash": "aad303e0615f5547a556ffe0ec9a504f"
+          },
+          {
+            "sample_id": "5rpdHyuA64yT9lpPmLhZ",
+            "file_name": "Алексенцев прогноз 2024 9 _ начало.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 30199310,
+            "hash": "b15b0d588ea75f6cf5c86e829a78fef1"
+          },
+          {
+            "sample_id": "orbGJqYG2hK74bj2Viyj",
+            "file_name": "перплексити 7.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 30489038,
+            "hash": "b58e89eb3acd72167c860f53da523eef"
+          },
+          {
+            "sample_id": "IUqxOPZn5d6cJLdSSiPW",
+            "file_name": "минусовки ч2.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 16751054,
+            "hash": "cf887ca3dce5708027f7fef1e2e3e741"
+          },
+          {
+            "sample_id": "TVtebDZP5djALhBEklMU",
+            "file_name": "текст из видео 7.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 31693262,
+            "hash": "d43f7bd7eb31d145f203de135a70ca16"
+          },
+          {
+            "sample_id": "pg2xXmtOjcQnT5C6NSQn",
+            "file_name": "перплексити 6.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 27441614,
+            "hash": "d4b2b69152407264d917908fca4b4e5e"
+          },
+          {
+            "sample_id": "1UyoIruQdIw79qFARCZz",
+            "file_name": "параметры 2.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 30833102,
+            "hash": "d504929d33e6f5517999b12b0bbbf56e"
+          },
+          {
+            "sample_id": "co7CBXCYiQQ4FDyFpkCP",
+            "file_name": "плейграунд ч2.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 17512910,
+            "hash": "d511a216d4ebbde2ffddf3c48a52eb6f"
+          },
+          {
+            "sample_id": "PSOSI2DtTrAkTYvmg0sl",
+            "file_name": "текст из видео 4.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 30513614,
+            "hash": "dae9b76ee2d91d6b198e21392f82a824"
+          },
+          {
+            "sample_id": "csqiKNVOqBOihoi7khUP",
+            "file_name": "перплексити 11.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 27294158,
+            "hash": "de9acc5f1f5af024a88f7a9807b6d67c"
+          },
+          {
+            "sample_id": "xHikRPZq6mPdhVSYccYe",
+            "file_name": "перплексити 2.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 27343310,
+            "hash": "e12f1e707151d17442a90b166018f832"
+          },
+          {
+            "sample_id": "xPA2hJizNSdF5rwBT6KZ",
+            "file_name": "диппл 9.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 27441614,
+            "hash": "e4d75bc20e70014c277f59a95962958b"
+          },
+          {
+            "sample_id": "avyF9LFDWICZpoQjrPZw",
+            "file_name": "перплексити 10.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 27294158,
+            "hash": "ee487e9947e800a7d1bf46d1b4fe6c59"
+          },
+          {
+            "sample_id": "1pW0H74eVGTVelvqIlYe",
+            "file_name": "Текст из видео ч1.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 16038350,
+            "hash": "fd4ad12298e74e0454399c39bd1b84d7"
+          },
+          {
+            "sample_id": "rUgOzLM8gSrcZFeA8UN0",
+            "file_name": "текст из видео 16.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 20756942,
+            "hash": "ff0d7290b23dc3de52e019fb9afd7711"
+          },
+          {
+            "sample_id": "p506CZ5QU24eWO1MbXB7",
+            "file_name": "перплексити 3.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 28105166,
+            "hash": "ffe87c389a00c9e18e0312eed3aac8cc"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_turbo_v2_5": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "ru",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2_5": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "ru",
+          "descriptive": "classy",
+          "accent": "standard",
+          "gender": "male",
+          "age": "middle_aged",
+          "use_case": "informative_educational"
+        },
+        "description": "Middle aged male voice with a medium timbre, clean and clear sound, making it ideal for a variety of projects, including narratives and commercials. my voice is particularly suited to projects aimed at youth audiences and educational content. It also conveys seriousness and professionalism well, making it an excellent choice for corporate presentations and instructional videos.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/X9cCz43ZWcP3aLBSfFC2/M5SepTQLx8kduj1VbIns.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied_disabled",
+          "history_item_sample_id": null,
+          "date_unix": 1719129748,
+          "whitelisted_emails": [],
+          "public_owner_id": "f91ed22c52b432bd849775ad1c1327d770a56fa0ee77020ed004f1a83727fe3f",
+          "original_voice_id": "X9cCz43ZWcP3aLBSfFC2",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 0,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Al - Universal Storyteller ",
+          "description": "Middle aged male voice with a medium timbre, clean and clear sound, making it ideal for a variety of projects, including narratives and commercials. my voice is particularly suited to projects aimed at youth audiences and educational content. It also conveys seriousness and professionalism well, making it an excellent choice for corporate presentations and instructional videos.",
+          "labels": {
+            "language": "ru",
+            "descriptive": "classy",
+            "accent": "standard",
+            "gender": "male",
+            "age": "middle_aged",
+            "use_case": "informative_educational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "ZXaNFwkRMa3G1wQ3tCeJ",
+        "name": "Oleksandr Trotsenko",
+        "samples": [
+          {
+            "sample_id": "k35lziPRFPaPWicult3W",
+            "file_name": "Trimmed-2024-05-25_17-42-02.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 66789365,
+            "hash": "7349624858c094fbf0ea405f94cb4136"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "ru",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "ru",
+          "descriptive": "confident",
+          "accent": "standard",
+          "gender": "male",
+          "age": "middle_aged",
+          "use_case": "informative_educational"
+        },
+        "description": "Middle aged Male voice with a confident tone. Suitable for podcasts.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/UTDrQAc4l5dwyvEKksiajInxzV23/voices/ZXaNFwkRMa3G1wQ3tCeJ/759b5047-f5ed-48e7-a49a-3f6f18975bd2.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1723707633,
+          "whitelisted_emails": [],
+          "public_owner_id": "8880065411a5660ac821144dd139481a03bc3a140504ee8bade0f94878349c82",
+          "original_voice_id": "ZXaNFwkRMa3G1wQ3tCeJ",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 30,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Oleksandr Trotsenko",
+          "description": "Middle aged Male voice with a confident tone. Suitable for podcasts.",
+          "labels": {
+            "language": "ru",
+            "descriptive": "confident",
+            "accent": "standard",
+            "gender": "male",
+            "age": "middle_aged",
+            "use_case": "informative_educational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2_5",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "bQU6q6sVsxKl8cLDodYF",
+        "name": "Meera - high quality, emotive",
+        "samples": null,
+        "category": "generated",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": false,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": null,
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": null,
+          "next_max_verification_attempts_reset_unix_ms": null
+        },
+        "labels": {
+          "accent": "indian",
+          "descriptive": "gentle",
+          "age": "young",
+          "gender": "female",
+          "use_case": "conversational"
+        },
+        "description": "Young indian woman. A gentle yet emotive voice for conversations",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/xcpdkIV6GoPJb4UApYRLpSFQNUO2/voices/LrHcsaLL3kowQYn95sZT/43316fb4-f64c-4cdf-b837-4f783c53da54.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721991026,
+          "whitelisted_emails": [],
+          "public_owner_id": "899444b1d9eab0cea6d20686befafde9ccdc46ab4628e79973cf318a9497b138",
+          "original_voice_id": "LrHcsaLL3kowQYn95sZT",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 0,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "generated",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Meera - high quality, emotive",
+          "description": "Young indian woman. A gentle yet emotive voice for conversations",
+          "labels": {
+            "accent": "indian",
+            "descriptive": "gentle",
+            "age": "young",
+            "gender": "female",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "ftDdhfYtmfGP0tFlBYA1",
+        "name": "Alisha - Soft and Engaging",
+        "samples": [
+          {
+            "sample_id": "ZnAUUkIahoSxdIetkXUP",
+            "file_name": "Riyanka [Processed].mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 218760000,
+            "hash": "e14ce9b1274dfa7e17702d431fd6be84"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_turbo_v2": "",
+            "eleven_multilingual_sts_v2": "",
+            "eleven_v2_5_flash": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "en",
+          "descriptive": "gentle",
+          "accent": "indian",
+          "gender": "female",
+          "age": "middle_aged",
+          "use_case": "conversational"
+        },
+        "description": "A young Indian female. Voice is calm, relaxed and gentle. Works well for conversations.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/ftDdhfYtmfGP0tFlBYA1/XtdSAFlqptYDG3XGhJdv.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721990730,
+          "whitelisted_emails": [],
+          "public_owner_id": "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+          "original_voice_id": "ftDdhfYtmfGP0tFlBYA1",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Alisha - Soft and Engaging",
+          "description": "A young Indian female. Voice is calm, relaxed and gentle. Works well for conversations.",
+          "labels": {
+            "language": "en",
+            "descriptive": "gentle",
+            "accent": "indian",
+            "gender": "female",
+            "age": "middle_aged",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_sts_v2",
+          "eleven_turbo_v2_5",
+          "eleven_flash_v2",
+          "eleven_turbo_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_flash"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "gYrtmoYYkr0x0Yfi9HdJ",
+        "name": "Vlad Russian",
+        "samples": [
+          {
+            "sample_id": "DYxRhe5dUp24bf7JvM9J",
+            "file_name": "1 Street 6.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 941682,
+            "hash": "e709be546a16c8d037be4a98d1e573bb"
+          }
+        ],
+        "category": "cloned",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": false,
+          "state": {},
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": null,
+          "progress": {},
+          "message": {},
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": null,
+          "next_max_verification_attempts_reset_unix_ms": null
+        },
+        "labels": {},
+        "description": "A young adult voice on a russian language, in a rapping style",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/dSbDcNyMyyPAYKwYEq7qQCZo9eC2/voices/gYrtmoYYkr0x0Yfi9HdJ/5d6b2f93-45d4-4da5-ad9c-037541cce171.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": null,
+        "high_quality_base_model_ids": [],
+        "safety_control": "NONE",
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": true,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "gedzfqL7OGdPbwm0ynTP",
+        "name": "Nadia",
+        "samples": [
+          {
+            "sample_id": "0POHfs5UqrGFMEDWoKUB",
+            "file_name": "Shure SM7b_08.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 76071108,
+            "hash": "5210031ea4b527eb1f2452af2317c75e"
+          },
+          {
+            "sample_id": "IAy9i274fe9v7ismTNSC",
+            "file_name": "Shure SM7b_11.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 87416001,
+            "hash": "7a4d7448b6479071739da3b3f1d07ddb"
+          },
+          {
+            "sample_id": "ItwqGgGjytGgzBWi1ygL",
+            "file_name": "Shure SM7b_09.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 118640337,
+            "hash": "b0331545bdc3ab468fc7d92e773605c2"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "ru",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_flash_v2_5": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "ru",
+          "descriptive": "crisp",
+          "age": "young",
+          "gender": "female",
+          "use_case": "informative_educational"
+        },
+        "description": "A young Native Russian female voice. Great for Informative content.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/gedzfqL7OGdPbwm0ynTP/w3TZGiSgIypkSFp0lr0Q.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1719129866,
+          "whitelisted_emails": [],
+          "public_owner_id": "a7861f21f1fcebc9960e7dabb066d0e541d5642a4630c69aeeb8cb2a8fc6a307",
+          "original_voice_id": "gedzfqL7OGdPbwm0ynTP",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 90,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Nadia",
+          "description": "A young Native Russian female voice. Great for Informative content.",
+          "labels": {
+            "language": "ru",
+            "descriptive": "crisp",
+            "age": "young",
+            "gender": "female",
+            "use_case": "informative_educational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_v2_5_flash",
+          "eleven_multilingual_v2",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "hmD4OXeLrQIVXXUdliAG",
+        "name": "Wendy - soft Chinese accent",
+        "samples": [
+          {
+            "sample_id": "poYBcvF1eWiL40fwDIrs",
+            "file_name": "English adult voice_v1.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 105609241,
+            "hash": "5c7625808714895102bea578eed6f117"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": "",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "en",
+          "descriptive": "gentle",
+          "accent": "Chinese",
+          "gender": "female",
+          "age": "young",
+          "use_case": "conversational"
+        },
+        "description": "A gentle female voice with a subtle Chinese accent in English",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/P6pUmq42X5NZv0RV97gQ0XrmuXL2/voices/hmD4OXeLrQIVXXUdliAG/e0688cf9-7c93-40c4-b60f-406c4f9359fc.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721991364,
+          "whitelisted_emails": [],
+          "public_owner_id": "8cb6f91dbb1d1b891d2cde8e21c96378281280fd9dac76faac4c7502f022075a",
+          "original_voice_id": "hmD4OXeLrQIVXXUdliAG",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 30,
+          "disable_at_unix": 1739354934,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Wendy - soft Chinese accent",
+          "description": "A gentle female voice with a subtle Chinese accent in English",
+          "labels": {
+            "language": "en",
+            "descriptive": "gentle",
+            "accent": "Chinese",
+            "gender": "female",
+            "age": "young",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_v2_5_flash",
+          "eleven_flash_v2",
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2",
+          "eleven_v2_flash",
+          "eleven_turbo_v2_5",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "iWq9tCtTw1SYmVpvsRjY",
+        "name": "Natasha ",
+        "samples": [
+          {
+            "sample_id": "3eAvlb3bRIMHvin9oHj9",
+            "file_name": "VO 13-02-2024 [Kanchan] (1).mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 237966720,
+            "hash": "afb0653bf4649d468d28d0444318f9fb"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": "",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "",
+            "eleven_multilingual_sts_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "en",
+          "descriptive": "professional",
+          "accent": "indian",
+          "gender": "female",
+          "age": "young",
+          "use_case": "conversational"
+        },
+        "description": "A young Indian female voice. Great for social media, audiobooks, and AI customer support.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/iWq9tCtTw1SYmVpvsRjY/QruzDTBG6Yzv82MrcGnh.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721991612,
+          "whitelisted_emails": [],
+          "public_owner_id": "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+          "original_voice_id": "iWq9tCtTw1SYmVpvsRjY",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Natasha ",
+          "description": "A young Indian female voice. Great for social media, audiobooks, and AI customer support.",
+          "labels": {
+            "language": "en",
+            "descriptive": "professional",
+            "accent": "indian",
+            "gender": "female",
+            "age": "young",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_sts_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2",
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2",
+          "eleven_v2_flash",
+          "eleven_turbo_v2_5",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "kwajW3Xh5svCeKU5ky2S",
+        "name": "Dmitry New Voice",
+        "samples": [
+          {
+            "sample_id": "P1Pv8cMH88WOzclCi3pi",
+            "file_name": "uno.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 72723968,
+            "hash": "2584a00a17efdfe3755408439db103bc"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "ru",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "ru",
+          "descriptive": "casual",
+          "age": "young",
+          "gender": "male",
+          "use_case": "social_media"
+        },
+        "description": "Cheerful young male voice with a Russian accent. Voice is great for Social media content. ",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/kwajW3Xh5svCeKU5ky2S/RfYu5tMUZI6sVzmX4H9I.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1723705861,
+          "whitelisted_emails": [],
+          "public_owner_id": "4a3382843041280834a810ccd42fb579e08695549ee33634a3e67b0be6f0e973",
+          "original_voice_id": "kwajW3Xh5svCeKU5ky2S",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Dmitry",
+          "description": "Cheerful young male voice with a Russian accent. Voice is great for Social media content. ",
+          "labels": {
+            "language": "ru",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "use_case": "social_media"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2_5",
+          "eleven_v2_5_flash",
+          "eleven_multilingual_v2",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "pBZVCk298iJlHAcHQwLr",
+        "name": "Leoni Vergara ",
+        "samples": [
+          {
+            "sample_id": "FY7DeMBhB9o9mrOhTejp",
+            "file_name": "ENGLISH speaking María Virtual 13 JULY .mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 599060036,
+            "hash": "b1f111b5cb5bd2d2ddf7ac1b8245b799"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_turbo_v2": "",
+            "eleven_multilingual_sts_v2": "",
+            "eleven_v2_5_flash": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "en",
+          "descriptive": "confident",
+          "age": "middle_aged",
+          "gender": "female",
+          "use_case": "conversational"
+        },
+        "description": "International Cosmopolitan and educated voice. Warm, soothing, friendly and eloquent tone.  Works great for Virtual Assistants and conversational text . ",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/pBZVCk298iJlHAcHQwLr/Kv1yNCVgidzKKjM5zvHb.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721990578,
+          "whitelisted_emails": [],
+          "public_owner_id": "b11ba57b5815bf861c2cb764605fd53a9544948008706505e87a2765ac4b5717",
+          "original_voice_id": "pBZVCk298iJlHAcHQwLr",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": false,
+          "live_moderation_enabled": false,
+          "rate": 2,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "high_quality",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Leoni Vergara ",
+          "description": "International Cosmopolitan and educated voice. Warm, soothing, friendly and eloquent tone.  Works great for Virtual Assistants and conversational text . ",
+          "labels": {
+            "language": "en",
+            "descriptive": "confident",
+            "age": "middle_aged",
+            "gender": "female",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_sts_v2",
+          "eleven_turbo_v2_5",
+          "eleven_flash_v2",
+          "eleven_turbo_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5",
+          "eleven_multilingual_v2",
+          "eleven_v2_flash"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "tKZQTIqwDrPzLv6MrPxF",
+        "name": "Sana",
+        "samples": [
+          {
+            "sample_id": "vpWTs377ANTHJxzDSmso",
+            "file_name": "VO 12-02-2024 [Sana] (1).mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 217317120,
+            "hash": "003dcb3fbe8c6c61180141b161270c3d"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": "",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "",
+            "eleven_multilingual_sts_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "en",
+          "descriptive": "confident",
+          "accent": "indian",
+          "gender": "female",
+          "age": "middle_aged",
+          "use_case": "conversational"
+        },
+        "description": "This voice, with its young Indian female tone, is great for social media, audiobooks, and AI customer support.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/tKZQTIqwDrPzLv6MrPxF/y9j0hRQtDcghCw71wchl.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721991147,
+          "whitelisted_emails": [],
+          "public_owner_id": "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+          "original_voice_id": "tKZQTIqwDrPzLv6MrPxF",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Sana",
+          "description": "This voice, with its young Indian female tone, is great for social media, audiobooks, and AI customer support.",
+          "labels": {
+            "language": "en",
+            "descriptive": "confident",
+            "accent": "indian",
+            "gender": "female",
+            "age": "middle_aged",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_sts_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2",
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2",
+          "eleven_v2_flash",
+          "eleven_turbo_v2_5",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      },
+      {
+        "voice_id": "tpFVjZdYBvOaWaUIRHRz",
+        "name": "Victoria Lennon",
+        "samples": [
+          {
+            "sample_id": "sAhr9JP6NgQY5ty6p53b",
+            "file_name": "LeahArscottTTS.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 1277901706,
+            "hash": "687212541cebae568d187dbaa1c81d0d"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": "",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 0,
+          "next_max_verification_attempts_reset_unix_ms": 0
+        },
+        "labels": {
+          "accent": "american",
+          "descriptive": "calm",
+          "age": "young",
+          "gender": "female",
+          "language": "en",
+          "use_case": "conversational"
+        },
+        "description": "Feminine, Raspy, down to earth, cool, textured, very chill, natural, Her, AI, girl next door, IT girl, That girl, north american, relaxed, ",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/NEJfVFx9jgNPMOl9gH6SCAvmq1K2/voices/tpFVjZdYBvOaWaUIRHRz/b3861a54-8f6a-4768-b4ab-cb760fdfdef1.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1737364133,
+          "whitelisted_emails": [],
+          "public_owner_id": "e40950c630103cae112a9b36b31673d251d1e598b66ccdce3389569d60cf8b01",
+          "original_voice_id": "tpFVjZdYBvOaWaUIRHRz",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": false,
+          "live_moderation_enabled": false,
+          "rate": 2,
+          "notice_period": 180,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "high_quality",
+          "reader_app_enabled": null,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Victoria Lennon",
+          "description": "Feminine, Raspy, down to earth, cool, textured, very chill, natural, Her, AI, girl next door, IT girl, That girl, north american, relaxed, ",
+          "labels": {
+            "language": "en",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "female",
+            "accent": "american",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2_5",
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_turbo_v2",
+          "eleven_multilingual_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": 1737364133
+      },
+      {
+        "voice_id": "x3gYeuNB0kLLYxOZsaSh",
+        "name": "Shrey - Deep & Engaging ",
+        "samples": [
+          {
+            "sample_id": "6ycZzDm4Ch6eHKAooU15",
+            "file_name": "VO 23.03.2024 [Shreyas Mondal Edited].mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 275500800,
+            "hash": "54d7bf1347cce0eb81d7ff71b38bc1e2"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "",
+            "eleven_multilingual_sts_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 0,
+          "next_max_verification_attempts_reset_unix_ms": 0
+        },
+        "labels": {
+          "accent": "indian",
+          "descriptive": "confident",
+          "age": "middle_aged",
+          "gender": "male",
+          "language": "en",
+          "use_case": "conversational"
+        },
+        "description": "A deep engaging Indian male voice. Sounds rich and resonates from within the chest and throat. The pitch is low, almost like a pleasantly rumbling hum that you can feel as much as you hear. Suitable for conversations.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/TLzQBQZ61wQrytFwliQpe4LeshE3/voices/x3gYeuNB0kLLYxOZsaSh/eJkWRBUmvHwKNKulqcVa.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1737370053,
+          "whitelisted_emails": [],
+          "public_owner_id": "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+          "original_voice_id": "x3gYeuNB0kLLYxOZsaSh",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "high_quality",
+          "reader_app_enabled": null,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Shrey - Deep & Engaging ",
+          "description": "A deep engaging Indian male voice. Sounds rich and resonates from within the chest and throat. The pitch is low, almost like a pleasantly rumbling hum that you can feel as much as you hear. Suitable for conversations.",
+          "labels": {
+            "language": "en",
+            "descriptive": "confident",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "indian",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_turbo_v2_5",
+          "eleven_v2_flash",
+          "eleven_flash_v2",
+          "eleven_multilingual_sts_v2",
+          "eleven_turbo_v2",
+          "eleven_multilingual_v2",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": 1737370053
+      },
+      {
+        "voice_id": "y2TOWGCXSYEgBanvKsYJ",
+        "name": "Aunt Annie - calm and professional",
+        "samples": [
+          {
+            "sample_id": "5bs2v5WfoyfAU7QUHPLT",
+            "file_name": "Recording (2).mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 7833154,
+            "hash": "fabebde9fcaecdb3cfd3a2c028c215cb"
+          },
+          {
+            "sample_id": "zx0gfhllv5biDiGyDnQn",
+            "file_name": "Recording (2).mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 7833154,
+            "hash": "fabebde9fcaecdb3cfd3a2c028c215cb"
+          },
+          {
+            "sample_id": "gtI41VigLiFnxiSuAhnV",
+            "file_name": "Recording.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 2306868,
+            "hash": "fce9f09faf61d737ffa5ac501e9e2170"
+          },
+          {
+            "sample_id": "o9CHjRHuBBv9K1DBAy6m",
+            "file_name": "Recording.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 2306868,
+            "hash": "fce9f09faf61d737ffa5ac501e9e2170"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_flash_v2_5": "",
+            "eleven_v2_flash": "",
+            "eleven_flash_v2": "",
+            "eleven_turbo_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 0,
+          "next_max_verification_attempts_reset_unix_ms": 0
+        },
+        "labels": {
+          "accent": "american",
+          "descriptive": "formal",
+          "age": "middle_aged",
+          "gender": "female",
+          "language": "en",
+          "use_case": "conversational"
+        },
+        "description": "An American - West Coast dialect, mature female voice, calm and professional. Great for conversational content.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/jsCyY2D3zwZS8wtu55f65bdDfpA3/voices/y2TOWGCXSYEgBanvKsYJ/4159a7f2-0e55-45ce-b57c-257aeddb855f.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1737370059,
+          "whitelisted_emails": [],
+          "public_owner_id": "424792389b85effe8a326e11954f9844fa883a2cb00aee0e160552a81114d241",
+          "original_voice_id": "y2TOWGCXSYEgBanvKsYJ",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": true,
+          "rate": 1,
+          "notice_period": 0,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": null,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Aunt Annie - calm and professional",
+          "description": "An American - West Coast dialect, mature female voice, calm and professional. Great for conversational content.",
+          "labels": {
+            "language": "en",
+            "descriptive": "formal",
+            "age": "middle_aged",
+            "gender": "female",
+            "accent": "american",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_flash_v2_5",
+          "eleven_v2_5_flash",
+          "eleven_turbo_v2",
+          "eleven_v2_flash",
+          "eleven_flash_v2"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": 1737370059
+      },
+      {
+        "voice_id": "yMCzJDgejP3dqCBHGGS4",
+        "name": "Swara - Young & Calm Voice",
+        "samples": [
+          {
+            "sample_id": "slh1RRcIgMHYkHpgmQca",
+            "file_name": "VO 04.05.2024 Swara processed.mp3",
+            "mime_type": "audio/mpeg",
+            "size_bytes": 661602916,
+            "hash": "7e2a15ff4f33e6e734beeb6be6472eb0"
+          }
+        ],
+        "category": "professional",
+        "fine_tuning": {
+          "is_allowed_to_fine_tune": true,
+          "state": {
+            "eleven_multilingual_v2": "fine_tuned",
+            "eleven_turbo_v2_5": "fine_tuned",
+            "eleven_v2_flash": "fine_tuned",
+            "eleven_flash_v2_5": "fine_tuned",
+            "eleven_v2_5_flash": "fine_tuned",
+            "eleven_turbo_v2": "fine_tuned",
+            "eleven_flash_v2": "fine_tuned",
+            "eleven_multilingual_sts_v2": "fine_tuned"
+          },
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "manual_verification_requested": false,
+          "language": "en",
+          "progress": {},
+          "message": {
+            "eleven_multilingual_v2": "",
+            "eleven_v2_flash": "",
+            "eleven_turbo_v2_5": "",
+            "eleven_flash_v2_5": "",
+            "eleven_v2_5_flash": "",
+            "eleven_turbo_v2": "",
+            "eleven_flash_v2": "",
+            "eleven_multilingual_sts_v2": ""
+          },
+          "dataset_duration_seconds": null,
+          "verification_attempts": null,
+          "slice_ids": null,
+          "manual_verification": null,
+          "max_verification_attempts": 5,
+          "next_max_verification_attempts_reset_unix_ms": 1700000000000
+        },
+        "labels": {
+          "language": "en",
+          "descriptive": "calm",
+          "accent": "indian",
+          "gender": "female",
+          "age": "young",
+          "use_case": "conversational"
+        },
+        "description": "This voice is of a professional young Indian voice-over artist. It is very well suited for use cases like conversation, social media, and audiobooks.",
+        "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/yMCzJDgejP3dqCBHGGS4/FmoUi6aZ6t2AdAxiHJMI.mp3",
+        "available_for_tiers": [],
+        "settings": null,
+        "sharing": {
+          "status": "copied",
+          "history_item_sample_id": null,
+          "date_unix": 1721991756,
+          "whitelisted_emails": [],
+          "public_owner_id": "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+          "original_voice_id": "yMCzJDgejP3dqCBHGGS4",
+          "financial_rewards_enabled": false,
+          "free_users_allowed": true,
+          "live_moderation_enabled": false,
+          "rate": 1,
+          "notice_period": 730,
+          "disable_at_unix": null,
+          "voice_mixing_allowed": false,
+          "featured": false,
+          "category": "professional",
+          "reader_app_enabled": false,
+          "image_url": "",
+          "ban_reason": null,
+          "liked_by_count": 0,
+          "cloned_by_count": 0,
+          "name": "Swara - Young & Calm Voice",
+          "description": "This voice is of a professional young Indian voice-over artist. It is very well suited for use cases like conversation, social media, and audiobooks.",
+          "labels": {
+            "language": "en",
+            "descriptive": "calm",
+            "accent": "indian",
+            "gender": "female",
+            "age": "young",
+            "use_case": "conversational"
+          },
+          "review_status": "not_requested",
+          "review_message": null,
+          "enabled_in_library": false,
+          "instagram_username": null,
+          "twitter_username": null,
+          "youtube_username": null,
+          "tiktok_username": null,
+          "moderation_check": null,
+          "reader_restricted_on": null
+        },
+        "high_quality_base_model_ids": [
+          "eleven_multilingual_sts_v2",
+          "eleven_v2_5_flash",
+          "eleven_flash_v2",
+          "eleven_multilingual_v2",
+          "eleven_turbo_v2",
+          "eleven_v2_flash",
+          "eleven_turbo_v2_5",
+          "eleven_flash_v2_5"
+        ],
+        "safety_control": null,
+        "voice_verification": {
+          "requires_verification": false,
+          "is_verified": false,
+          "verification_failures": [],
+          "verification_attempts_count": 0,
+          "language": null,
+          "verification_attempts": null
+        },
+        "permission_on_resource": "admin",
+        "is_owner": false,
+        "is_legacy": false,
+        "is_mixed": false,
+        "created_at_unix": null
+      }
+    ]
+  }

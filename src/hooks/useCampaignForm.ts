@@ -35,7 +35,6 @@ export const useCampaignForm = (campaign: Campaign | null, onSave: (campaign: Ca
   const [formData, setFormData] = useState<CampaignFormData>(initialFormData);
   const [isEditing, setIsEditing] = useState(false);
   const [showValidation, setShowValidation] = useState(false);
-  console.log('INVOKED');
 
   if (campaign && !isEditing) {
     setFormData( {

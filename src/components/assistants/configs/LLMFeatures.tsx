@@ -48,6 +48,17 @@ const LLMFeatures = ({ config, onChange }: LLMFeaturesProps) => {
 
       <div className="space-y-4">
         <label className="block">
+          <span className="text-sm font-medium text-slate-700 dark:text-slate-300">First Message</span>
+          <textarea
+            className="mt-1 block w-full"
+            rows={4}
+            placeholder="Enter initial message..."
+            value={config.systemPrompt}
+            onChange={(e) => handleChange('initialMessage', e.target.value)}
+          />
+        </label>
+
+        <label className="block">
           <span className="text-sm font-medium text-slate-700 dark:text-slate-300">System Prompt</span>
           <textarea
             className="mt-1 block w-full"

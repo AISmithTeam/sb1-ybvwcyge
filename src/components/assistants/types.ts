@@ -6,11 +6,13 @@ export interface ConfigValidation {
   llm: {
     provider: string;
     model: string;
+    first_message: string;
     prompt: string;
   };
   tts: {
     provider: string;
     model: string;
+    voice: string;
   };
 }
 

@@ -4,9 +4,9 @@ export interface Campaign {
   assistant: string;
   maxCalls: number;
   days: string[];
-  time: { 
-    start: string; 
-    end: string; 
+  time: {
+    start: string;
+    end: string;
   };
   type: string;
   number: string;

@@ -6,16 +6,16 @@ export const ttsProviders: Provider[] = [
     name: 'ElevenLabs',
     models: [
       {
-        id: 'eleven-turbo-v2.5',
-        name: 'Eleven Turbo V2.5',
-        description: 'Latest version of our high-performance speech synthesis model.',
-        voices: [
-          { id: 'rachel', name: 'Rachel - Conversational' },
-          { id: 'josh', name: 'Josh - Professional' },
-          { id: 'bella', name: 'Bella - Friendly' },
-          { id: 'emily', name: 'Emily - News Anchor' },
-          { id: 'sam', name: 'Sam - Narrator' }
-        ]
+        id: 'eleven_flash_v2_5', // check docs
+        name: 'Eleven Flash v2.5 - Fastest',
+        description: 'Best model for realtime conversational applications where low response latency is essential',
+        voices: []
+      },
+      {
+        id: 'eleven_turbo_v2_5', // check docs
+        name: 'Eleven Turbo v2.5 - Most Capable',
+        description: 'High quality of text to speech translation and balanced latency',
+        voices: []
       },
       {
         id: 'eleven-multilingual-v2',

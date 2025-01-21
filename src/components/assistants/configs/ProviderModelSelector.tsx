@@ -7,6 +7,7 @@ interface ProviderModelSelectorProps {
   selectedModel: string;
   onProviderChange: (providerId: string) => void;
   onModelChange: (modelId: string) => void;
+  onVoiceChange: (voiceId: string) => void;
 }
 
 const ProviderModelSelector = ({
@@ -15,6 +16,7 @@ const ProviderModelSelector = ({
   selectedModel,
   onProviderChange,
   onModelChange,
+  onVoiceChange,
 }: ProviderModelSelectorProps) => {
   const selectedProviderData = providers.find(p => p.id === selectedProvider);
   const selectedModelData = selectedProviderData?.models.find(m => m.id === selectedModel);

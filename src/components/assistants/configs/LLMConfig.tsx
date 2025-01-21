@@ -11,7 +11,7 @@ interface LLMConfigProps {
     model: string;
     prompt: string;
   };
-  onChange: (updates: { provider?: string; model?: string; prompt?: string }) => void;
+  onChange: (updates: { provider?: string; model?: string; prompt?: string; first_message?: string; }) => void;
   showValidationErrors?: boolean;
 }
 
@@ -33,7 +33,7 @@ const LLMConfig = ({ config, onChange, showValidationErrors }: LLMConfigProps) =
 
   const handleFeaturesChange = (updates: Partial<LLMFeaturesConfig>) => {
     setFeatures(prev => ({ ...prev, ...updates }));
-    onChange({ prompt: updates.systemPrompt });
+    onChange({ prompt: updates.systemPrompt, first_message: updates.initialMessage });
     //config.prompt = updates.systemPrompt ? updates.systemPrompt : config.prompt;
   };
 
