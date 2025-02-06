@@ -17,6 +17,7 @@ const WaveformVisualizer = ({ data, recordingDataUrl, accountSid, authToken }: W
 
   if (recordingUri) {
     if (!recordingIsSet) {
+      console.log(recordingUrl)
       setRecordingAudio(new Audio(recordingUrl));
       setRecordingIsSet(true);
     }

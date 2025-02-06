@@ -30,7 +30,7 @@ export const useAssistants = (fetch_assistants: Boolean = true) => {
                 type: assistantData.assistant_type,
                 config: {
                   stt: {
-                    provider: assistantData.stt_provider ? assistantData.stt_provider : null,
+                    provider: assistantData.transcriber_provider ? assistantData.transcriber_provider : null,
                     model: assistantData.stt_model ? assistantData.stt_model : null,
                   },
                   llm: {
@@ -39,7 +39,8 @@ export const useAssistants = (fetch_assistants: Boolean = true) => {
                     prompt: assistantData.prompt,
                   },
                   tts: {
-                    model: assistantData.voice,
+                    voice: assistantData.voice,
+                    model: assistantData.tts_model,
                     provider: assistantData.voice_provider,
                   },
                 },

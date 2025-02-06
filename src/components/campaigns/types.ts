@@ -1,8 +1,11 @@
+import { Assistant } from "../../types/assistant";
+
 export interface Campaign {
   id: number;
   name: string;
-  assistant: string;
+  assistant: Assistant | undefined; // FIXME change to default assistant
   maxCalls: number;
+  recallsInterval: number;
   days: string[];
   time: {
     start: string;
@@ -10,6 +13,7 @@ export interface Campaign {
   };
   type: string;
   number: string;
-  status: 'active' | 'stopped';
-  file?: string;
+  status: 'running' | 'stopped';
+  file?: File | null;
+  fileName: string;
 }

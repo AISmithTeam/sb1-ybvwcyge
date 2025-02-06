@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Play, Pause, Clock, Bot, Phone, Calendar, FileSpreadsheet } from 'lucide-react';
 import Card from '../common/Card';
 import ActionButton from '../common/ActionButton';
 import { Campaign } from './types';
 import { useAssistants } from '../../hooks/useAssistants';
 import { usePhoneNumbers } from '../../hooks/usePhoneNumbers';
+import axios from 'axios';
 
 interface CampaignCardProps {
   campaign: Campaign;
@@ -14,16 +15,29 @@ interface CampaignCardProps {
 
 const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
   const getStatusColor = (status: string) => {
-    return status === 'active'
+    return status === 'running'
       ? 'bg-green-50 text-green-700 border-green-100 dark:bg-green-500/10 dark:text-green-300 dark:border-green-500/20'
       : 'bg-slate-50 text-slate-700 border-slate-100 dark:bg-slate-500/10 dark:text-slate-300 dark:border-slate-500/20';
   };
+  const baseURL = 'https://api.voice.aismith.co/api';
+  const accessToken = localStorage.getItem("access_token");
 
   const { assistants, createAssistant, updateAssistant, deleteAssistant } = useAssistants();
   const { phoneNumbers, createPhoneNumber, updatePhoneNumber, deletePhoneNumber, togglePhoneNumberStatus} = usePhoneNumbers();
 
-  const assistantName = assistants.find(p => p.id === campaign.assistant)?.name;
+  const assistantName = assistants.find(p => p.id === campaign.assistant?.id)?.name;
   const phoneNumber = phoneNumbers.find(p => p.id === campaign.number)?.number;
+
+  const handleRunCampaign = () => {
+    console.log('TRYING TO RUN');
+    campaign.status === 'running'?
+    axios.post(`${baseURL}/stop-campaign?jwt_token=${accessToken}&campaign_id=${campaign.id}`):
+    axios.post(`${baseURL}/run-campaign?jwt_token=${accessToken}&campaign_id=${campaign.id}`);
+
+    campaign.status === 'running'?
+    campaign.status = 'stopped':
+    campaign.status = 'running';
+  }
 
   return (
     <Card variant="glass" className="hover:shadow-lg transition-shadow duration-200 flex flex-col">
@@ -71,7 +85,7 @@ const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
           {campaign.file && (
             <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-400">
               <FileSpreadsheet className="w-4 h-4 text-primary-500 dark:text-primary-400" />
-              <span className="truncate">{campaign.file}</span>
+              <span className="truncate">{campaign.fileName}</span>
             </div>
           )}
         </div>
@@ -81,11 +95,12 @@ const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
         <span className="text-sm font-medium text-slate-700 dark:text-slate-300">
           Max Calls: {campaign.maxCalls}
         </span>
-        <button 
+        <button
           className="p-2 rounded-lg hover:bg-white dark:hover:bg-dark-700 transition-colors duration-200 group"
-          title={campaign.status === 'active' ? 'Pause Campaign' : 'Start Campaign'}
+          title={campaign.status === 'running' ? 'Pause Campaign' : 'Start Campaign'}
+          onClick={handleRunCampaign}
         >
-          {campaign.status === 'active' ? (
+          {campaign.status === 'running' ? (
             <Pause className="w-5 h-5 text-slate-600 dark:text-slate-400 group-hover:text-primary-600 dark:group-hover:text-primary-400" />
           ) : (
             <Play className="w-5 h-5 text-slate-600 dark:text-slate-400 group-hover:text-primary-600 dark:group-hover:text-primary-400" />

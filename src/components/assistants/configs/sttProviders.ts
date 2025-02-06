@@ -120,5 +120,17 @@ export const sttProviders: Provider[] = [
         voices: []
       }
     ]
+  },
+  {
+    id: 'elevenlabs',
+    name: 'ElevenLabs',
+    models: [
+      {
+        id: 'elevenlabs-asr',
+        name: 'ElevenLabs-ASR',
+        description: 'fast transcription model',
+        voices: []
+      }
+    ]
   }
 ];

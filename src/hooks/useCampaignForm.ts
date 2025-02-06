@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { Campaign } from '../components/campaigns/types';
+import { Assistant } from '../types/assistant';
 
 interface TimeRange {
   start: string;
@@ -8,7 +9,7 @@ interface TimeRange {
 
 interface CampaignFormData {
   name: string;
-  assistantId: string;
+  assistant: Assistant | undefined;
   type: string;
   phoneNumberId: string;
   timeRange: TimeRange;
@@ -19,7 +20,7 @@ interface CampaignFormData {
 
 const initialFormData: CampaignFormData = {
   name: '',
-  assistantId: '',
+  assistant: undefined,
   type: '',
   phoneNumberId: '',
   timeRange: {
@@ -39,7 +40,7 @@ export const useCampaignForm = (campaign: Campaign | null, onSave: (campaign: Ca
   if (campaign && !isEditing) {
     setFormData( {
       name: campaign.name,
-      assistantId: campaign.assistant,
+      assistant: campaign.assistant,
       type: campaign.type,
       phoneNumberId: campaign.number,
       timeRange: campaign.time,
@@ -67,7 +68,7 @@ export const useCampaignForm = (campaign: Campaign | null, onSave: (campaign: Ca
   const isRequiredFieldsValid = () => {
     return Boolean(
       formData.name.trim() &&
-      formData.assistantId &&
+      formData.assistant &&
       formData.type &&
       formData.phoneNumberId
     );
@@ -80,14 +81,15 @@ export const useCampaignForm = (campaign: Campaign | null, onSave: (campaign: Ca
     const campaign: Campaign = {
       id: Date.now(),
       name: formData.name.trim(),
-      assistant: formData.assistantId,
+      assistant: formData.assistant,
       maxCalls: formData.maxCalls,
       days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
       time: formData.timeRange,
       type: formData.type,
       number: formData.phoneNumberId,
       status: 'active',
-      file: formData.file?.name
+      file: formData.file,
+      fileName: formData.file?.name || "no file provided"
     };
 
     onSave(campaign);

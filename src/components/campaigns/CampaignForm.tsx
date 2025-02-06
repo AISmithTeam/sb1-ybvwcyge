@@ -42,9 +42,9 @@ const CampaignForm = ({ assistants, campaign, onClose, onSave }: CampaignFormPro
         <div className="grid gap-6 md:grid-cols-2">
           <AssistantSelect
             assistants={assistants}
-            value={formData.assistantId}
-            onChange={(value) => handleInputChange('assistantId', value)}
-            showError={showValidation && !formData.assistantId}
+            value={formData.assistant ? formData.assistant.id + ' ' + formData.assistant.type : ''}
+            onChange={(value) => handleInputChange('assistant', value)}
+            showError={showValidation && !formData.assistant?.id}
           />
 
           <CampaignTypeSelect

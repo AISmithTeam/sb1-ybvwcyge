@@ -10,6 +10,7 @@ interface AudioCallRecordingProps {
 export const useAudioCallRecording = ( { recordingDataUrl, accountSid, authToken }: AudioCallRecordingProps ) => {
     const [recordingUrl, setRecordingUrl] = useState(String());
     const [recordingUri, setRecordingUri] = useState(String());
+    console.log(recordingDataUrl)
     axios
         .get(recordingDataUrl, {
             auth: {
@@ -18,6 +19,7 @@ export const useAudioCallRecording = ( { recordingDataUrl, accountSid, authToken
             }
         })
         .then( (recordingResponse) => {
+            console.log(recordingResponse);
             const recordingData = recordingResponse.data;
             const recordingResourceJsonUri = recordingData.recordings?.at(0)?.uri;
             const recordingResourceUri = recordingResourceJsonUri.slice(0, recordingResourceJsonUri.length - 4) + 'mp3';

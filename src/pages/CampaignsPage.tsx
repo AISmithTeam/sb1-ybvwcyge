@@ -9,8 +9,8 @@ import type { Campaign } from '../components/campaigns/types';
 import { usePhoneNumbers } from '../hooks/usePhoneNumbers';
 
 const CampaignsPage = () => {
-  console.log('INVOKED')
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(false); // for new campaign
+  const [isUpdating, setIsUpdating] = useState(false); // for updating existing campaign
   const { assistants } = useAssistants(false);
   const { campaigns, addCampaign, setCampaigns } = useCampaigns();
 
@@ -21,16 +21,18 @@ const CampaignsPage = () => {
   };
 
   const handleEditCampaign = (campaign: Campaign) => {
-    setIsEditing(true);
+    setIsUpdating(true);
     setEditingCampaign(campaign);
   }
 
   const handleSaveCampaign = (campaign: Campaign) => {
-    if (!isEditing) {
+    if (!isUpdating && isEditing) {
+      console.log("TRYING TO HANDLE SAVE");
       addCampaign(campaign);
+      setIsEditing(false);
     } else {
       updateCampaign(campaign); 
-      setIsEditing(false);
+      setIsUpdating(false);
     }
   };
 
@@ -45,7 +47,7 @@ const CampaignsPage = () => {
         <Button icon={Plus} onClick={handleNewCampaign}>New Campaign</Button>
       </div>
 
-      {isEditing && (
+      {isUpdating && (
         <CampaignForm 
           assistants={assistants}
           campaign={editingCampaign}

@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Upload } from 'lucide-react';
 
 interface FileUploadProps {
   onFileSelect: (file: File | null) => void;
 }
+
+let uploadedFileName = "";
 
 const FileUpload = ({ onFileSelect }: FileUploadProps) => (
   <div>
@@ -17,7 +19,7 @@ const FileUpload = ({ onFileSelect }: FileUploadProps) => (
           className="hidden" 
           id="file-upload" 
           accept=".csv,.xlsx,.xls"
-          onChange={(e) => onFileSelect(e.target.files?.[0] || null)}
+          onChange={(e) => {onFileSelect(e.target.files?.[0] || null); uploadedFileName = e.target.files?.[0].name || ""; console.log("FILE UPLOADED")}}
         />
         <label htmlFor="file-upload" className="cursor-pointer">
           <div className="space-y-2">
@@ -28,7 +30,7 @@ const FileUpload = ({ onFileSelect }: FileUploadProps) => (
               <span className="text-primary-600 dark:text-primary-400 font-medium">Click to upload</span>
               <span className="text-slate-600 dark:text-slate-400"> or drag and drop</span>
             </div>
-            <p className="text-xs text-slate-500">Optional: CSV or Excel file with contact information</p>
+            <p className="text-xs text-slate-500">{uploadedFileName != "" ? "Uploaded File: " + uploadedFileName : "Optional: CSV or Excel file with contact information"}</p>
           </div>
         </label>
       </div>

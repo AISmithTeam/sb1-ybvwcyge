@@ -5,7 +5,7 @@ import type { Assistant } from '../../../types/assistant';
 interface AssistantSelectProps {
   assistants: Assistant[];
   value: string;
-  onChange: (value: string) => void;
+  onChange: (value: Assistant | undefined) => void;
   showError?: boolean;
 }
 
@@ -20,11 +20,14 @@ const AssistantSelect = ({ assistants, value, onChange, showError }: AssistantSe
         showError && !value ? 'border-red-300 focus:border-red-500 focus:ring-red-500' : ''
       }`}
       value={value}
-      onChange={(e) => onChange(e.target.value)}
+      onChange={(e) => onChange(assistants.find(p => {
+        const id_and_type = e.target.value.split(" ", 2);
+        return p.id.toString() === id_and_type[0] && p.type == id_and_type[1];
+      }))}
     >
       <option value="">Select an assistant</option>
       {assistants.map((assistant) => (
-        <option key={assistant.id} value={assistant.id}>
+        <option key={assistant.id} value={assistant.id + ' ' + assistant.type}>
           {assistant.name}
         </option>
       ))}
