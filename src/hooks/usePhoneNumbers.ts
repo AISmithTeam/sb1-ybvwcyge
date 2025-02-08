@@ -10,9 +10,35 @@ export const usePhoneNumbers = () => {
     const stored = localStorage.getItem(STORAGE_KEY);
     return stored ? JSON.parse(stored) : [];
   });
+  const [isPhoneNumbersFetched, setIsPhoneNumbersFetched] = useState(false);
 
   const baseUrl = 'https://api.voice.aismith.co/api'
   const accessToken = localStorage.getItem("access_token");
+
+  if (!isPhoneNumbersFetched) {
+    axios
+    .get(`${baseUrl}/phone-numbers?jwt_token=${accessToken}`)
+    .then((response) => {
+      const data = response.data;
+      if (data) {
+        const existingPhoneNumbers = Array();
+        for (let i = 0; i < data.length; i++) {
+          const phoneNumerData = data[i];
+          if (phoneNumerData) {
+            const newPhoneNumber: PhoneNumber = {
+              id: phoneNumerData.id,
+              number: phoneNumerData.phone_number,
+              accountSid: phoneNumerData.account_sid,
+              authToken: phoneNumerData.auth_token,
+              status: 'active'
+            }
+            existingPhoneNumbers.push(newPhoneNumber);
+          }
+        }
+        setPhoneNumbers(existingPhoneNumbers);
+      }
+    });
+  }
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(phoneNumbers));
