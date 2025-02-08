@@ -16,8 +16,8 @@ const AssistantsPage = () => {
   const [assistantPrompt, setAssistantPrompt] = useState('');
   const [validation, setValidation] = useState<ConfigValidation>({
     stt: { provider: '', model: '' },
-    llm: { provider: '', model: '', prompt: '' },
-    tts: { provider: '', model: '' }
+    llm: { provider: '', model: '', prompt: '', first_message: '' },
+    tts: { provider: '', model: '', voice: '' }
   });
   const [showValidationErrors, setShowValidationErrors] = useState(false);
   const [editingAssistant, setEditingAssistant] = useState<Assistant | null>(null);
@@ -31,8 +31,8 @@ const AssistantsPage = () => {
     setAssistantName('');
     setValidation({
       stt: { provider: '', model: '' },
-      llm: { provider: '', model: '', prompt: '' },
-      tts: { provider: '', model: '' }
+      llm: { provider: '', model: '', prompt: '', first_message: '' },
+      tts: { provider: '', model: '', voice: '' }
     });
   };
 
@@ -75,8 +75,8 @@ const AssistantsPage = () => {
     setAssistantName('');
     setValidation({
       stt: { provider: '', model: '' },
-      llm: { provider: '', model: '', prompt: '' },
-      tts: { provider: '', model: '' }
+      llm: { provider: '', model: '', prompt: '', first_message: '' },
+      tts: { provider: '', model: '', voice: '' }
     });
   };
 

@@ -17,6 +17,7 @@ export const defaultSTTConfig = {
 export const defaultLLMConfig = {
   temperature: 0.7,
   maxTokens: 125,
+  initialMessage: '',
   systemPrompt: '',
   trainingFile: null
 } as const;

@@ -72,7 +72,7 @@ export const useAssistants = (fetch_assistants: Boolean = true) => {
       status: 'active'
     };
 
-    console.log(newAssistant.config.tts.model, newAssistant.config.llm.model);
+    console.log(newAssistant.config.llm.first_message, newAssistant.config.llm.prompt);
 
     axios.post(`${baseUrl}/assistants?jwt_token=${accessToken}`, 
       {

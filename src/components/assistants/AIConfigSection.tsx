@@ -16,8 +16,8 @@ const AIConfigSection = ({
   const [validation, setValidation] = useState<ConfigValidation>(
     initialValidation || {
       stt: { provider: '', model: '' },
-      llm: { provider: '', model: '', prompt: '' },
-      tts: { provider: '', model: '' }
+      llm: { provider: '', model: '', prompt: '', first_message: '' },
+      tts: { provider: '', model: '', voice: '' }
     }
   );
 
@@ -27,7 +27,7 @@ const AIConfigSection = ({
     }
   }, [initialValidation]);
 
-  const handleValidationChange = (type: 'stt' | 'llm' | 'tts', updates: { provider?: string; model?: string }) => {
+  const handleValidationChange = (type: 'stt' | 'llm' | 'tts', updates: { provider?: string; model?: string; prompt?: string; first_message?: string }) => {
     const newValidation = {
       ...validation,
       [type]: { ...validation[type], ...updates }
