@@ -2,13 +2,7 @@ import { useState, useEffect } from 'react';
 import type { Campaign } from '../../../components/campaigns/types';
 
 import axios from 'axios';
-import { Assistant } from '../../../types/assistant';
-import { PhoneNumber } from '../../../types/phoneNumber';
-
-interface UseCampaignsProps {
-  assistants: Assistant[];
-  phoneNumbers: PhoneNumber[];
-}
+import { useAssistants } from '../../../hooks/useAssistants';
 
 const STORAGE_KEY = 'aismith_campaigns';
 
@@ -21,6 +15,7 @@ export const useCampaigns = () => {
 
   const baseUrl = 'https://api.voice.aismith.co/api'
   const accessToken = localStorage.getItem("access_token");
+  const { assistants } = useAssistants();
 
   if (!isCampaignsFetched) {
     axios
@@ -35,7 +30,7 @@ export const useCampaigns = () => {
             {
               id: campaignData.id,
               name: campaignData.campaign_name,
-              assistant: campaignData.assistant_id, //assistants.find(p => p.id == campaignData.assistant_id)?.name || "",
+              assistant: assistants.find(p => p.id == campaignData.assistant_id),
               maxCalls: campaignData.max_recalls,
               recallsInterval: parseInt(campaignData.recall_interval) / 60,
               days: [],

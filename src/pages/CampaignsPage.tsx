@@ -6,7 +6,6 @@ import CampaignForm from '../components/campaigns/CampaignForm';
 import { useAssistants } from '../hooks/useAssistants';
 import { useCampaigns } from '../features/campaigns/hooks/useCampaigns';
 import type { Campaign } from '../components/campaigns/types';
-import { usePhoneNumbers } from '../hooks/usePhoneNumbers';
 
 const CampaignsPage = () => {
   const [isEditing, setIsEditing] = useState(false); // for new campaign
@@ -47,7 +46,7 @@ const CampaignsPage = () => {
         <Button icon={Plus} onClick={handleNewCampaign}>New Campaign</Button>
       </div>
 
-      {isUpdating && (
+      {(isEditing || isUpdating) && (
         <CampaignForm 
           assistants={assistants}
           campaign={editingCampaign}

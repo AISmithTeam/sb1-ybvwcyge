@@ -44,9 +44,9 @@ export const useCampaignForm = (campaign: Campaign | null, onSave: (campaign: Ca
       type: campaign.type,
       phoneNumberId: campaign.number,
       timeRange: campaign.time,
-      recallsInterval: 0,
-      maxCalls: 1,
-      file: null
+      recallsInterval: campaign.recallsInterval,
+      maxCalls: campaign.maxCalls,
+      file: campaign.file
     } );
     setIsEditing(true);
   }
@@ -83,11 +83,12 @@ export const useCampaignForm = (campaign: Campaign | null, onSave: (campaign: Ca
       name: formData.name.trim(),
       assistant: formData.assistant,
       maxCalls: formData.maxCalls,
+      recallsInterval: formData.recallsInterval,
       days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
       time: formData.timeRange,
       type: formData.type,
       number: formData.phoneNumberId,
-      status: 'active',
+      status: 'stopped',
       file: formData.file,
       fileName: formData.file?.name || "no file provided"
     };

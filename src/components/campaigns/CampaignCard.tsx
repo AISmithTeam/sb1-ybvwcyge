@@ -4,16 +4,17 @@ import Card from '../common/Card';
 import ActionButton from '../common/ActionButton';
 import { Campaign } from './types';
 import { useAssistants } from '../../hooks/useAssistants';
-import { usePhoneNumbers } from '../../hooks/usePhoneNumbers';
+import { PhoneNumber } from '../../types/phoneNumber';
 import axios from 'axios';
 
 interface CampaignCardProps {
   campaign: Campaign;
+  phoneNumbers: PhoneNumber[];
   onEdit: (campaign: Campaign) => void;
   onDelete: (campaign: Campaign) => void;
 }
 
-const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
+const CampaignCard = ({ campaign, phoneNumbers, onEdit, onDelete }: CampaignCardProps) => {
   const getStatusColor = (status: string) => {
     return status === 'running'
       ? 'bg-green-50 text-green-700 border-green-100 dark:bg-green-500/10 dark:text-green-300 dark:border-green-500/20'
@@ -21,15 +22,12 @@ const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
   };
   const baseURL = 'https://api.voice.aismith.co/api';
   const accessToken = localStorage.getItem("access_token");
+  const [playStopClicked, setPlayStopClicked] = useState(false);
 
-  const { assistants, createAssistant, updateAssistant, deleteAssistant } = useAssistants();
-  const { phoneNumbers, createPhoneNumber, updatePhoneNumber, deletePhoneNumber, togglePhoneNumberStatus} = usePhoneNumbers();
-
-  const assistantName = assistants.find(p => p.id === campaign.assistant?.id)?.name;
+  const assistantName = campaign.assistant?.name;
   const phoneNumber = phoneNumbers.find(p => p.id === campaign.number)?.number;
 
   const handleRunCampaign = () => {
-    console.log('TRYING TO RUN');
     campaign.status === 'running'?
     axios.post(`${baseURL}/stop-campaign?jwt_token=${accessToken}&campaign_id=${campaign.id}`):
     axios.post(`${baseURL}/run-campaign?jwt_token=${accessToken}&campaign_id=${campaign.id}`);
@@ -37,6 +35,8 @@ const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
     campaign.status === 'running'?
     campaign.status = 'stopped':
     campaign.status = 'running';
+
+    setPlayStopClicked(!playStopClicked);
   }
 
   return (
@@ -78,10 +78,12 @@ const CampaignCard = ({ campaign, onEdit, onDelete }: CampaignCardProps) => {
             <Clock className="w-4 h-4 text-primary-500 dark:text-primary-400" />
             <span>{campaign.time.start} - {campaign.time.end}</span>
           </div>
-          <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-400">
-            <Calendar className="w-4 h-4 text-primary-500 dark:text-primary-400" />
-            <span className="truncate">{campaign.days.join(', ')}</span>
-          </div>
+          {
+          //<div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-400">
+            //<Calendar className="w-4 h-4 text-primary-500 dark:text-primary-400" />
+            //<span className="truncate">{campaign.days.join(', ')}</span>
+          //</div>
+          }
           {campaign.file && (
             <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-400">
               <FileSpreadsheet className="w-4 h-4 text-primary-500 dark:text-primary-400" />

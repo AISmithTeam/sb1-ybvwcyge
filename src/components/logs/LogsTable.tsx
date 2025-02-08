@@ -3,6 +3,7 @@ import { Phone, Calendar, Clock, Bot, Hash, DollarSign, XCircle } from 'lucide-r
 import WaveformVisualizer from './WaveformVisualizer';
 import { LogEntry } from './types';
 import { useAudioCallRecording } from '../../hooks/useAudioCallRecording';
+import { PhoneNumber } from '../../types/phoneNumber';
 interface Log {
   id: number;
   callId: string;
@@ -20,20 +21,6 @@ interface Log {
 interface logsTableProps {
   callLogs: LogEntry[]
 }
-// empty comment
-const mockLogs: Log[] = Array.from({ length: 10 }, (_, i) => ({
-  id: i + 1,
-  callId: `CALL-${Math.random().toString(36).substring(2, 10).toUpperCase()}`,
-  phoneNumber: `+1 (${Math.floor(Math.random() * 900) + 100}) ${Math.floor(Math.random() * 900) + 100}-${Math.floor(Math.random() * 9000) + 1000}`,
-  date: new Date(2024, 2, Math.floor(Math.random() * 30) + 1).toLocaleDateString(),
-  time: `${String(Math.floor(Math.random() * 12) + 1).padStart(2, '0')}:${String(Math.floor(Math.random() * 60)).padStart(2, '0')} ${Math.random() > 0.5 ? 'AM' : 'PM'}`,
-  duration: `${Math.floor(Math.random() * 10) + 1}:${String(Math.floor(Math.random() * 60)).padStart(2, '0')}`,
-  assistant: `AI Assistant ${i + 1}`,
-  status: ['completed', 'failed', 'in-progress'][Math.floor(Math.random() * 3)] as Log['status'],
-  cost: Number((Math.random() * 5).toFixed(2)),
-  endReason: ['User Hangup', 'Task Completed', 'System Error', 'Timeout'][Math.floor(Math.random() * 4)],
-  recording: Array.from({ length: 50 }, () => Math.random())
-}));
 
 const LogsTable = ( {callLogs} : logsTableProps ) => {
   const getStatusColor = (status: Log['status']) => {

@@ -7,6 +7,7 @@ const URL = 'https://api.voice.aismith.co/api/twilio-records' // change to produ
 
 export const useCallLogs = () => {
     const [callLogs, setCallLogs] = useState<LogEntry[]>(Array());
+    const { phoneNumbers } = usePhoneNumbers();
     let newLogs = new Array<LogEntry>();
     const accessToken = localStorage.getItem("access_token");
     // retreive inbound
@@ -21,6 +22,7 @@ export const useCallLogs = () => {
                         console.log(callData)
                         const recordingDataUrl = 'https://' + callData.account_sid + ':' + callData.auth_token + '@' + 'api.twilio.com' + callData.recording_url;
                         if (callData && !newLogs.find(p => p.id === callData.sid)) {
+                            const phoneNumber = phoneNumbers.find(p => p.id === callData.phone_number_id)?.number;
                             const newLog: LogEntry = {
                                 id: callData.call_id,
                                 type: callData.call_type,
@@ -28,7 +30,7 @@ export const useCallLogs = () => {
                                 cost: callData.cost,
                                 endedReason: "customer-ended-call",
                                 assistant: callData.assistant_name,
-                                phoneNumber: callData.phone_number_id,
+                                phoneNumber: phoneNumber || 'Not Exists',
                                 customer: callData.customer_phone_number,
                                 callTime: callData.start_time,
                                 duration: callData.duration.toString(),
