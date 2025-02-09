@@ -1,3 +1,5 @@
+import { ConfigValidation } from "../components/assistants/types";
+
 export interface Assistant {
   id: string;
   name: string;

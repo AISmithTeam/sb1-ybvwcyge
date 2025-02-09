@@ -40,7 +40,7 @@ export interface LLMFeaturesConfig {
   temperature: number;
   maxTokens: number;
   systemPrompt: string;
-  initialMessage: string;
+  first_message: string;
   trainingFile: File | null;
 }
 

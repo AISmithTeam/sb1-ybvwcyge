@@ -53,8 +53,8 @@ const LLMFeatures = ({ config, onChange }: LLMFeaturesProps) => {
             className="mt-1 block w-full"
             rows={4}
             placeholder="Enter initial message..."
-            value={config.initialMessage}
-            onChange={(e) => handleChange('initialMessage', e.target.value)}
+            value={config.first_message}
+            onChange={(e) => handleChange('first_message', e.target.value)}
           />
         </label>
 

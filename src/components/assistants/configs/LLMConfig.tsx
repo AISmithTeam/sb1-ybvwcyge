@@ -9,7 +9,7 @@ interface LLMConfigProps {
   config: {
     provider: string;
     model: string;
-    initialMessage: string;
+    first_message: string;
     prompt: string;
   };
   onChange: (updates: { provider?: string; model?: string; prompt?: string; first_message?: string; }) => void;
@@ -18,8 +18,9 @@ interface LLMConfigProps {
 
 const LLMConfig = ({ config, onChange, showValidationErrors }: LLMConfigProps) => {
   const [features, setFeatures] = useState<LLMFeaturesConfig>(defaultLLMConfig);
+  console.log(config.first_message);
+  features.first_message = config.first_message;
   features.systemPrompt = config.prompt;
-  features.initialMessage = config.initialMessage;
   const handleProviderChange = (providerId: string) => {
     const provider = llmProviders.find(p => p.id === providerId);
     onChange({
@@ -35,7 +36,7 @@ const LLMConfig = ({ config, onChange, showValidationErrors }: LLMConfigProps) =
   const handleFeaturesChange = (updates: Partial<LLMFeaturesConfig>) => {
     setFeatures(prev => ({ ...prev, ...updates }));
     updates.systemPrompt && onChange({ prompt: updates.systemPrompt });
-    updates.initialMessage && onChange({ first_message: updates.initialMessage });
+    updates.first_message && onChange({ first_message: updates.first_message });
     //config.prompt = updates.systemPrompt ? updates.systemPrompt : config.prompt;
   };
 

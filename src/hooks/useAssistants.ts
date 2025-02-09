@@ -37,6 +37,7 @@ export const useAssistants = (fetch_assistants: Boolean = true) => {
                     model: assistantData.llm ? assistantData.llm : null,
                     provider: assistantData.llm_provider ? assistantData.llm_provider : null,
                     prompt: assistantData.prompt,
+                    first_message: assistantData.first_message || "",
                   },
                   tts: {
                     voice: assistantData.voice,
