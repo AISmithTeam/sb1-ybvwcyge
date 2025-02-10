@@ -29,7 +29,6 @@ const CampaignForm = ({ assistants, campaign, onClose, onSave }: CampaignFormPro
     isRequiredFieldsValid
   } = useCampaignForm(campaign, onSave);
   const { phoneNumbers } = usePhoneNumbers();
-  console.log(formData.recallsInterval);
   return (
     <Card className="p-6">
       <div className="space-y-6">

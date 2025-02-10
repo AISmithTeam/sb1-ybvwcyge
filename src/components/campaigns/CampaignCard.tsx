@@ -26,6 +26,7 @@ const CampaignCard = ({ campaign, phoneNumbers, onEdit, onDelete }: CampaignCard
 
   const assistantName = campaign.assistant?.name;
   const phoneNumber = phoneNumbers.find(p => p.id === campaign.number)?.number;
+  console.log(phoneNumber, phoneNumbers.find(p => p.id === campaign.number), campaign.number);
 
   const handleRunCampaign = () => {
     campaign.status === 'running'?
